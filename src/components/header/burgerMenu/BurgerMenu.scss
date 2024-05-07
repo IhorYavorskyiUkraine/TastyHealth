@@ -1,0 +1,81 @@
+$humble-black: #1d1e1c;
+$humble-black-hover: #3a3a3a;
+
+.burger {
+   display: none;
+   z-index: 1000;
+   @media (max-width: 61.999rem) {
+      display: block;
+   }
+   &__icon {
+      width: 3.75rem;
+      height: 2.8125rem;
+      border-radius: 2.625rem;
+      background: $humble-black;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      img {
+         width: 1.5rem;
+         height: 1.125rem;
+      }
+   }
+
+   &__header {
+      display: grid;
+      grid-template-columns: 10.75rem 1fr 1.25rem;
+      margin-bottom: 3.125rem;
+   }
+
+   &__close {
+      grid-column: 3;
+      filter: var(--burger-logo);
+   }
+
+   &__overlay {
+      display: flex;
+      flex-direction: column;
+      padding: 1.25rem;
+      overflow: auto;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: var(--burger-bg-color);
+      transition: all 0.3s;
+      z-index: 1000;
+   }
+
+   &__main {
+      display: flex;
+      flex-direction: column;
+      row-gap: 2rem;
+      flex: 1 1 auto;
+   }
+
+   &__logo {
+      text-transform: uppercase;
+      font-family: "Roboto";
+      font-size: 1.5rem;
+      font-weight: 900;
+      line-height: 1.75rem;
+      color: var(--logo-color);
+      span {
+         color: var(--font-color-orange);
+      }
+   }
+
+   &__link {
+      color: #fff;
+      font-size: 3rem;
+      font-weight: 700;
+      line-height: 120%;
+      transition: all 0.3s;
+      color: var(--font-color);
+      font-family: "Poppins";
+      &:hover {
+         color: #f1f1f1;
+      }
+   }
+}

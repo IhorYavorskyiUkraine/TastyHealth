@@ -3,31 +3,22 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:900&display=swap");
 ////////////////////DARK THEME////////////////////
 :root {
-   //btn black
-   --black-btn-bg-black: #131314;
-   --black-btn-text-white: #e3e3e3;
-   --black-btn-hover-black: #3a3a3a;
-   //btn black
-   //btn white
-   --white-btn-bg-white: #fff;
-   --white-btn-text-black: #131314;
-   --white-btn-hover-white: #f1f1f1;
-   //btn white
+   //btn
+   --btn-bg: #fb9333;
+   --btn-hover: #fda048;
+   --btn-text: #fff;
+   //btn
    //bg-colors
    --background-color: #fff;
-   --trusted-bg: transparent;
    --burger-bg-color: #f1f1f1;
-   --footer-color: #131314;
-   --trusted-items: none;
    //bg-colors
    //font-colors
-   --heading-color: #131314;
    --font-color: #575757;
-   --burger-link: #131314;
+   --font-color-orange: #fb9333;
+   --font-color-hover: #969393;
    //font-colors
    //logos
-   --header-logo-bg: none;
-   --footer-logo-bg: none;
+   --logo-color: #575757;
    --burger-logo: brightness(100) invert(1);
    //logos
    --loader: #131314;
@@ -35,19 +26,13 @@
    --price-bg: #131314;
    --price-text: #e3e3e3;
    //price
+   //item-bg
+   --item-bg: #fff;
+   --item-hover: rgba(151, 109, 0, 0.2);
+   //item-bg
 }
 
 [data-theme="dark"] {
-   ///btn black
-   --black-btn-bg-black: #e3e3e3;
-   --black-btn-text-white: #131314;
-   --black-btn-hover-black: #f1f1f1;
-   //btn black
-   //btn white
-   --white-btn-bg-white: #e3e3e3;
-   --white-btn-text-black: #131314;
-   --white-btn-hover-white: #f1f1f1;
-   //btn white
    //bg-colors
    --background-color: #131314;
    --trusted-bg: #e3e3e3;
@@ -56,21 +41,18 @@
    --trusted-items: brightness(0) invert(1);
    //bg-colors
    //font-colors
-   --heading-color: #e3e3e3;
    --font-color: #e3e3e3;
-   --font-color-bg-white: #131314;
-   --burger-link: #e3e3e3;
+   --font-color-hover: #f7f4f4;
    //font-colors
    //logos
-   --header-logo-bg: brightness(0) invert(1);
-   --footer-logo-bg: brightness(100) invert(1);
+   --logo-color: #e3e3e3;
    --burger-logo: none;
    //logos
    --loader: #f1f1f1;
-   //price
-   --price-bg: #f1f1f1;
-   --price-text: #131314;
-   //price
+   //item-bg
+   --item-bg: #f1f1f1;
+   --item-hover: #f1f1f1;
+   //item-bg
 }
 ////////////////////NULL STYLE////////////////////
 body {
@@ -156,6 +138,16 @@ h6 {
    > * {
       min-width: 0;
    }
+   &::before {
+      content: "";
+      background: url("/images/bg.png") right / 100% 100% no-repeat;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      right: 0;
+      z-index: -1000;
+   }
 }
 
 .container {
@@ -179,4 +171,47 @@ h6 {
    to {
       transform: rotate(0.5turn);
    }
+}
+
+.active {
+   color: var(--font-color-orange);
+}
+
+.hidden {
+   left: 100%;
+   transition: all 0.3s;
+}
+
+.title {
+   font-weight: 600;
+   font-size: 3rem;
+   line-height: 140%;
+   color: var(--font-color);
+   letter-spacing: -2%;
+   span {
+      color: var(--font-color-orange);
+   }
+   @media (max-width: 48.249rem) {
+      font-size: 2rem;
+   }
+}
+
+.text {
+   color: var(--font-color);
+   font-size: 1.25rem;
+   font-weight: 500;
+   line-height: 160%;
+   letter-spacing: -2%;
+   margin-bottom: 1.875rem;
+   @media (max-width: 61.999rem) {
+      margin-bottom: 1rem;
+   }
+   @media (max-width: 48.249rem) {
+      font-size: 1rem;
+   }
+}
+
+.errorBoundary {
+   display: flex;
+   margin: 0 auto;
 }
