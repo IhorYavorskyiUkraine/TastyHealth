@@ -2,24 +2,82 @@
    "whyChooseUs": [
       {
          "id": 1,
-         "image": "/images/whyChooseUs/1.png",
+         "image": "/images/main/whyChooseUs/1.png",
          "title": "Happy customers",
          "text": "Read our customer reviews and see for yourself that we can help you achieve your goals!",
          "link": "https://www.google.com/"
       },
       {
          "id": 2,
-         "image": "/images/whyChooseUs/2.png",
+         "image": "/images/main/whyChooseUs/2.png",
          "title": "#1 Calorie Calculator",
          "text": "We offer a wide range of healthy recipes and recommendations to help you achieve the results you want.",
          "link": "https://www.google.com/"
       },
       {
          "id": 3,
-         "image": "/images/whyChooseUs/3.png",
+         "image": "/images/main/whyChooseUs/3.png",
          "title": "100 Top Brand",
          "text": "Top diet brands in Ukraine according to the rating. Guaranteed results and customer care.",
          "link": "https://www.google.com/"
+      }
+   ],
+   "sliderSlides": [
+      {
+         "id": 1,
+         "image": "/images/main/reviews/1.png",
+         "name": "Larisa",
+         "age": "22 Years",
+         "text": "This site changed everything for me! Personalized diets helped me reach my weight goal. Highly recommended!"
+      },
+      {
+         "id": 2,
+         "image": "/images/main/reviews/2.png",
+         "name": "Kirill",
+         "age": "24 Years",
+         "text": "Surpassed my expectations! The calorie calculator results guided me in creating balanced meals. Thanks for this valuable tool!"
+      },
+      {
+         "id": 3,
+         "image": "/images/main/reviews/3.png",
+         "name": "Irina",
+         "age": "21 Years",
+         "text": "The individual approach and quick results made me a believer. I now use the site's recipes regularly for my health and fitness."
+      },
+      {
+         "id": 4,
+         "image": "/images/main/reviews/1.png",
+         "name": "Larisa",
+         "age": "22 Years",
+         "text": "This site changed everything for me! Personalized diets helped me reach my weight goal. Highly recommended!"
+      },
+      {
+         "id": 5,
+         "image": "/images/main/reviews/2.png",
+         "name": "Kirill",
+         "age": "24 Years",
+         "text": "The individual approach and quick results made me a believer. I now use the site's recipes regularly for my health and fitness."
+      },
+      {
+         "id": 6,
+         "image": "/images/main/reviews/3.png",
+         "name": "Irina",
+         "age": "21 Years",
+         "text": "Surpassed my expectations! The calorie calculator results guided me in creating balanced meals. Thanks for this valuable tool!"
+      },
+      {
+         "id": 7,
+         "image": "/images/main/reviews/2.png",
+         "name": "Kirill",
+         "age": "24 Years",
+         "text": "The individual approach and quick results made me a believer. I now use the site's recipes regularly for my health and fitness."
+      },
+      {
+         "id": 8,
+         "image": "/images/main/reviews/3.png",
+         "name": "Irina",
+         "age": "21 Years",
+         "text": "This site changed everything for me! Personalized diets helped me reach my weight goal. Highly recommended!"
       }
    ]
 }

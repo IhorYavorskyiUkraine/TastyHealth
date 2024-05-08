@@ -29,7 +29,7 @@ const DarkMode = () => {
                checked={selectedTheme === "dark"}
                type="checkbox"
             />
-            <span className="slider"></span>
+            <span className="changeMod"></span>
          </label>
       </button>
    );

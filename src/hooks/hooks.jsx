@@ -11,8 +11,19 @@ const useFetchData = () => {
       }
    };
 
+   const fetchSlides = async () => {
+      try {
+         const response = await fetch("http://localhost:3001/sliderSlides");
+         const tablesData = await response.json();
+         return tablesData;
+      } catch (error) {
+         console.error("Error", error);
+      }
+   };
+
    return {
       fetchTables,
+      fetchSlides,
    };
 };
 
