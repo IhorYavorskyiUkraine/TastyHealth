@@ -24,26 +24,10 @@
       line-height: 150%;
       color: #999;
    }
-   slider {
-   }
+
    &__buttons {
       display: flex;
       justify-content: space-between;
-   }
-}
-
-.counter {
-   &__active {
-      color: #333;
-      font-size: 3rem;
-      font-weight: 700;
-      line-height: 133%;
-   }
-
-   &__total {
-      color: #ccc;
-      font-weight: 700;
-      line-height: 137%;
    }
 }
 
@@ -63,7 +47,20 @@
    border-radius: 0.5rem;
    width: 16.875rem !important;
    &__image {
-      transform: translateY(-80px);
+      transform: translateY(-5rem);
+      height: 5.625rem;
+      width: 5.625rem;
+      position: relative;
+      margin: 0 auto;
+      img {
+         position: absolute;
+         width: 100%;
+         height: 100%;
+         top: 0;
+         left: 0;
+         object-fit: cover;
+         border-radius: 0.5rem;
+      }
    }
 
    &__name {

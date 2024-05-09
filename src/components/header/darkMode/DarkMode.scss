@@ -38,7 +38,7 @@
    }
 }
 
-input:checked + .slider {
+input:checked + .changeMod {
    background-color: transparent;
    &:before {
       transform: translateX(100%);

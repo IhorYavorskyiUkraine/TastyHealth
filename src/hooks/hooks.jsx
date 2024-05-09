@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useState } from "react";
 
 const useFetchData = () => {
    const fetchTables = async () => {
@@ -21,9 +21,20 @@ const useFetchData = () => {
       }
    };
 
+   const fetchMenu = async () => {
+      try {
+         const response = await fetch("http://localhost:3001/menu");
+         const tablesData = await response.json();
+         return tablesData;
+      } catch (error) {
+         console.error("Error", error);
+      }
+   };
+
    return {
       fetchTables,
       fetchSlides,
+      fetchMenu,
    };
 };
 

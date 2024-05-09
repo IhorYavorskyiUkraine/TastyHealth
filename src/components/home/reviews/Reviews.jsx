@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
+import { motion } from "framer-motion";
 
 import { useState, useEffect } from "react";
 
@@ -35,8 +36,7 @@ const Reviews = () => {
          <Swiper
             modules={[Navigation, Pagination]}
             spaceBetween={35}
-            slidesPerView={4}
-            slidesPerGroup={4}
+            slidesPerView={"auto"}
             pagination={{
                el: ".swiper-pagination",
                type: "fraction",
@@ -65,7 +65,13 @@ const Reviews = () => {
    }, []);
 
    return (
-      <section className="reviews">
+      <motion.section
+         className="reviews"
+         initial={{ y: 150 }}
+         whileInView={{ y: 0 }}
+         transition={{ duration: 0.3 }}
+         viewport={{ once: true }}
+      >
          <div className="container">
             <div className="reviews__content">
                <div className="reviews__info">
@@ -93,7 +99,7 @@ const Reviews = () => {
                </div>
             </div>
          </div>
-      </section>
+      </motion.section>
    );
 };
 

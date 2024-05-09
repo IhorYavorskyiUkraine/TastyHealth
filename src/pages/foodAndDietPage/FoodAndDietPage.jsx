@@ -1,4 +1,4 @@
-import FoodAndDiet from "../../components/main/foodAndDiet/FoodAndDiet";
+import FoodAndDiet from "../../components/foodAndDiet/FoodAndDiet";
 
 const FoodAndDietPage = () => {
    return <FoodAndDiet />;

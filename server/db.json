@@ -79,5 +79,25 @@
          "age": "21 Years",
          "text": "This site changed everything for me! Personalized diets helped me reach my weight goal. Highly recommended!"
       }
+   ],
+   "menu": [
+      {
+         "id": 1,
+         "image": "/images/main/enjoy/1.png",
+         "name": "Mini Salad Yummy ",
+         "link": "https://www.google.com/"
+      },
+      {
+         "id": 2,
+         "image": "/images/main/enjoy/2.png",
+         "name": "Completed Salad",
+         "link": "https://www.google.com/"
+      },
+      {
+         "id": 3,
+         "image": "/images/main/enjoy/3.png",
+         "name": "Salad Yummy Red",
+         "link": "https://www.google.com/"
+      }
    ]
 }

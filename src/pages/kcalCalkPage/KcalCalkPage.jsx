@@ -1,4 +1,4 @@
-import KcalCalc from "../../components/main/kcalCalc/KcalCalc";
+import KcalCalc from "../../components/kcalCalc/KcalCalc";
 
 const KcalPage = () => {
    return <KcalCalc />;

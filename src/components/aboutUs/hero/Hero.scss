@@ -1,0 +1,45 @@
+.aboutUs {
+   text-align: center;
+   padding: 4rem 0rem;
+   @media (max-width: 61.999rem) {
+      padding: 2rem 0rem;
+   }
+   @media (max-width: 48.249rem) {
+      padding: 1rem 0rem;
+   }
+   &__content {
+   }
+
+   &__est {
+      display: inline-block;
+      position: relative;
+      &::before {
+         content: "";
+         position: absolute;
+         width: 5rem;
+         height: 3px;
+         top: 50%;
+         left: -88px;
+         background: var(--font-color);
+      }
+      &::after {
+         content: "";
+         position: absolute;
+         width: 5rem;
+         height: 3px;
+         top: 50%;
+         right: -88px;
+         background: var(--font-color);
+      }
+   }
+
+   &__title {
+      margin-bottom: 1.875rem;
+   }
+
+   &__text {
+      &:not(:last-child) {
+         margin-bottom: 1rem;
+      }
+   }
+}
