@@ -1,8 +1,8 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import MainPage, {
-   KcalCalc,
-   FoodAndDietPage,
+   KcalCalcPage,
+   DietsPage,
    AboutUsPage,
    NotFoundPage,
 } from "./pages";
@@ -17,12 +17,12 @@ const router = createBrowserRouter([
    },
    {
       path: "/kcal-calc",
-      element: <KcalCalc />,
+      element: <KcalCalcPage />,
       errorElement: <NotFoundPage />,
    },
    {
-      path: "/food-and-diet",
-      element: <FoodAndDietPage />,
+      path: "/diets",
+      element: <DietsPage />,
       errorElement: <NotFoundPage />,
    },
    {

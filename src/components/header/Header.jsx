@@ -27,13 +27,13 @@ const Header = () => {
                         </NavLink>
                      </li>
                      <li className="menu__item">
-                        <NavLink to="/kcal-calc" className="menu__link">
-                           Calorie Calculator
+                        <NavLink to="/diets" className="menu__link">
+                           Diets
                         </NavLink>
                      </li>
                      <li className="menu__item">
-                        <NavLink to="/food-and-diet" className="menu__link">
-                           Food & Diet
+                        <NavLink to="/kcal-calc" className="menu__link">
+                           Calorie Calculator
                         </NavLink>
                      </li>
                      <li className="menu__item">

@@ -31,10 +31,21 @@ const useFetchData = () => {
       }
    };
 
+   const fetchLose = async () => {
+      try {
+         const response = await fetch("http://localhost:3001/lose");
+         const tablesData = await response.json();
+         return tablesData;
+      } catch (error) {
+         console.error("Error", error);
+      }
+   };
+
    return {
       fetchTables,
       fetchSlides,
       fetchMenu,
+      fetchLose,
    };
 };
 

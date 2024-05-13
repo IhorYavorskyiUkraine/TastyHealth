@@ -83,20 +83,144 @@
    "menu": [
       {
          "id": 1,
-         "image": "/images/main/enjoy/1.png",
-         "name": "Mini Salad Yummy ",
+         "image": "/images/main/enjoy/1.jpg",
+         "name": "Lose Weight",
+         "link": "/diets/lose"
+      },
+      {
+         "id": 2,
+         "image": "/images/main/enjoy/2.jpg",
+         "name": "Maintain Weight",
+         "link": "/diets/maintain"
+      },
+      {
+         "id": 3,
+         "image": "/images/main/enjoy/3.jpg",
+         "name": "Gain Weight",
+         "link": "/diets/gain"
+      }
+   ],
+   "lose": [
+      {
+         "id": 1,
+         "image": "/images/trendyCategory/1.jpg",
+         "name": "Dark green vegetables",
          "link": "https://www.google.com/"
       },
       {
          "id": 2,
-         "image": "/images/main/enjoy/2.png",
-         "name": "Completed Salad",
+         "image": "/images/trendyCategory/2.jpg",
+         "name": "Whole grains",
          "link": "https://www.google.com/"
       },
       {
          "id": 3,
-         "image": "/images/main/enjoy/3.png",
-         "name": "Salad Yummy Red",
+         "image": "/images/trendyCategory/3.jpg",
+         "name": "Beans and lentils",
+         "link": "https://www.google.com/"
+      },
+      {
+         "id": 4,
+         "image": "/images/trendyCategory/4.jpg",
+         "name": "Fish",
+         "link": "https://www.google.com/"
+      },
+      {
+         "id": 5,
+         "image": "/images/trendyCategory/5.jpg",
+         "name": "Berries",
+         "link": "https://www.google.com/"
+      },
+      {
+         "id": 6,
+         "image": "/images/trendyCategory/6.jpg",
+         "name": "Winter squash",
+         "link": "https://www.google.com/"
+      },
+      {
+         "id": 7,
+         "image": "/images/trendyCategory/7.jpg",
+         "name": "Soy Beans",
+         "link": "https://www.google.com/"
+      },
+      {
+         "id": 8,
+         "image": "/images/trendyCategory/8.jpg",
+         "name": "Flaxseed, nuts and seeds",
+         "link": "https://www.google.com/"
+      },
+      {
+         "id": 9,
+         "image": "/images/trendyCategory/9.jpg",
+         "name": "Organic yogurt",
+         "link": "https://www.google.com/"
+      },
+      {
+         "id": 10,
+         "image": "/images/trendyCategory/10.jpg",
+         "name": "Apples",
+         "link": "https://www.google.com/"
+      }
+   ],
+   "veganCategory": [
+      {
+         "id": 11,
+         "image": "/images/veganCategory/1.jpg",
+         "name": "Avocados",
+         "link": "https://www.google.com/"
+      },
+      {
+         "id": 12,
+         "image": "/images/veganCategory/2.jpg",
+         "name": "Bananas",
+         "link": "https://www.google.com/"
+      },
+      {
+         "id": 13,
+         "image": "/images/veganCategory/3.jpg",
+         "name": "Blueberries",
+         "link": "https://www.google.com/"
+      },
+      {
+         "id": 14,
+         "image": "/images/veganCategory/4.jpg",
+         "name": "Oranges",
+         "link": "https://www.google.com/"
+      },
+      {
+         "id": 15,
+         "image": "/images/veganCategory/5.jpg",
+         "name": "Strawberries",
+         "link": "https://www.google.com/"
+      },
+      {
+         "id": 16,
+         "image": "/images/veganCategory/6.jpg",
+         "name": "Pineapple",
+         "link": "https://www.google.com/"
+      },
+      {
+         "id": 17,
+         "image": "/images/veganCategory/7.jpg",
+         "name": "Kiwi",
+         "link": "https://www.google.com/"
+      },
+      {
+         "id": 18,
+         "image": "/images/veganCategory/8.jpg",
+         "name": "Lychee",
+         "link": "https://www.google.com/"
+      },
+      {
+         "id": 19,
+         "image": "/images/veganCategory/9.jpg",
+         "name": "Dragon Fruit",
+         "link": "https://www.google.com/"
+      },
+      {
+         "id": 20,
+         "image": "/images/veganCategory/10.jpg",
+         "name": "Papaya",
          "link": "https://www.google.com/"
       }
    ]

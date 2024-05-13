@@ -1,0 +1,17 @@
+.diets {
+   padding: 3rem 0rem;
+}
+.category {
+   text-align: center;
+   section {
+      &:not(:last-child) {
+         margin-bottom: 2rem;
+      }
+   }
+   &__wrapper {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 22.625rem);
+      gap: 2.5rem;
+      justify-content: center;
+   }
+}

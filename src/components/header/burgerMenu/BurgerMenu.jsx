@@ -34,15 +34,11 @@ const BurgerMenu = () => {
                <Link to="/" id="home" className="burger__item">
                   <span className="burger__link">Home</span>
                </Link>
+               <Link to="/diets" id="food-and-diet" className="burger__item">
+                  <span className="burger__link">Diets</span>
+               </Link>
                <Link to="/kcal-calc" id="kcal-calc" className="burger__item">
                   <span className="burger__link">Calorie Counter</span>
-               </Link>
-               <Link
-                  to="/food-and-diet"
-                  id="food-and-diet"
-                  className="burger__item"
-               >
-                  <span className="burger__link">Food & Diet</span>
                </Link>
                <Link to="/about-us" id="about-us" className="burger__item">
                   <span className="burger__link">About Us</span>

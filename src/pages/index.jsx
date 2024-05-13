@@ -2,12 +2,16 @@ import React, { Suspense } from "react";
 
 import MainPage from "./mainPage/MainPage";
 
-const LazyKcalCalcPage = React.lazy(() => import("./kcalCalkPage/KcalCalkPage"));
-const LazyNotFoundPage = React.lazy(() => import("./notFoundPage/NotFoundPage.jsx"));
-const LazyFoodAndDietPage = React.lazy(() => import("./foodAndDietPage/FoodAndDietPage"));
+const LazyKcalCalcPage = React.lazy(
+   () => import("./kcalCalkPage/KcalCalkPage"),
+);
+const LazyNotFoundPage = React.lazy(
+   () => import("./notFoundPage/NotFoundPage.jsx"),
+);
+const LazyDietsPage = React.lazy(() => import("./dietsPage/DietsPage.jsx"));
 const LazyAboutUsPage = React.lazy(() => import("./aboutUsPage/AboutUsPage"));
 
-export const KcalCalc = () => {
+export const KcalCalcPage = () => {
    return (
       <Suspense fallback={<div className="loader"></div>}>
          <LazyKcalCalcPage />
@@ -21,10 +25,17 @@ export const NotFoundPage = () => {
       </Suspense>
    );
 };
-export const FoodAndDietPage = () => {
+export const DietsPage = () => {
    return (
       <Suspense fallback={<div className="loader"></div>}>
-         <LazyFoodAndDietPage />
+         <LazyDietsPage />
+      </Suspense>
+   );
+};
+export const TrendySinglePage = () => {
+   return (
+      <Suspense fallback={<div className="loader"></div>}>
+         <LazyTrendySinglePage />
       </Suspense>
    );
 };

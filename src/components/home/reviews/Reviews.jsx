@@ -10,8 +10,6 @@ import btn from "/images/main/reviews/btn.png";
 
 import "./Reviews.scss";
 import "swiper/scss";
-import "swiper/scss/pagination";
-import "swiper/scss/scrollbar";
 
 const Reviews = () => {
    const [data, setData] = useState([]);
@@ -22,13 +20,13 @@ const Reviews = () => {
    const renderSlider = () => {
       const slides = data.map(item => {
          return (
-            <SwiperSlide key={item.id}>
-               <div className="swiper-slide__image">
+            <SwiperSlide className="slider__slide slider-slide" key={item.id}>
+               <div className="slider-slide__image">
                   <img src={item.image} alt="slide" />
                </div>
-               <h3 className="swiper-slide__name">{item.name}</h3>
-               <p className="swiper-slide__age">{item.age}</p>
-               <p className="swiper-slide__text">{item.text}</p>
+               <h3 className="slider-slide__name">{item.name}</h3>
+               <p className="slider-slide__age">{item.age}</p>
+               <p className="slider-slide__text">{item.text}</p>
             </SwiperSlide>
          );
       });
@@ -45,6 +43,7 @@ const Reviews = () => {
                nextEl: ".swiper-button-next",
                prevEl: ".swiper-button-prev",
             }}
+            className="reviews__slider slider"
          >
             {slides}
          </Swiper>
