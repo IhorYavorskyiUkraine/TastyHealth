@@ -12,13 +12,13 @@ import "./Reviews.scss";
 import "swiper/scss";
 
 const Reviews = () => {
-   const [data, setData] = useState([]);
+   const [data, setData] = useState(null);
 
    const { loading, startLoading, stopLoading } = useLoading();
    const { fetchSlides } = useFetchData();
 
    const renderSlider = () => {
-      const slides = data.map(item => {
+      const slides = data?.map(item => {
          return (
             <SwiperSlide className="slider__slide slider-slide" key={item.id}>
                <div className="slider-slide__image">
@@ -55,7 +55,10 @@ const Reviews = () => {
       setTimeout(() => {
          fetchSlides()
             .then(data => setData(data))
-            .then(stopLoading());
+            .catch(error => {
+               console.error("Error fetching data:", error);
+            })
+            .finally(() => stopLoading());
       }, 300);
    };
 

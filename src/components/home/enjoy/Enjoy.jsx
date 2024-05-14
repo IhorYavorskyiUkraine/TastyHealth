@@ -7,13 +7,13 @@ import { useFetchData, useLoading } from "../../../hooks/hooks";
 import "./Enjoy.scss";
 
 const Enjoy = () => {
-   const [data, setData] = useState([]);
+   const [data, setData] = useState(null);
 
    const { loading, startLoading, stopLoading } = useLoading();
    const { fetchMenu } = useFetchData();
 
    const renderMenu = () => {
-      const menuItems = data.map(item => {
+      const menuItems = data?.map(item => {
          return (
             <Link to={item.link} className="menu__item" key={item.id}>
                <div className="menu__image">
@@ -31,7 +31,10 @@ const Enjoy = () => {
       setTimeout(() => {
          fetchMenu()
             .then(data => setData(data))
-            .then(stopLoading());
+            .catch(error => {
+               console.error("Error fetching data:", error);
+            })
+            .finally(() => stopLoading());
       }, 300);
    };
 
@@ -49,9 +52,9 @@ const Enjoy = () => {
       >
          <div className="container">
             <div className="enjoy__content">
-               <p className="enjoy__label">MENU THAT MAKES YOU FALL IN LOVE</p>
+               <p className="enjoy__label">DIETS THAT MAKES YOU FALL IN LOVE</p>
                <h2 className="enjoy__title title">
-                  <span>ENJOY</span> THE BEST MENU
+                  <span>ENJOY</span> THE BEST DIETS
                </h2>
                {loading ? <div className="loader"></div> : renderMenu()}
             </div>

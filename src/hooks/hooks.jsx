@@ -31,9 +31,19 @@ const useFetchData = () => {
       }
    };
 
-   const fetchLose = async () => {
+   const fetchDiets = async () => {
       try {
-         const response = await fetch("http://localhost:3001/lose");
+         const response = await fetch("http://localhost:3001/diets");
+         const tablesData = await response.json();
+         return tablesData;
+      } catch (error) {
+         console.error("Error", error);
+      }
+   };
+
+   const fetchSingleDiet = async id => {
+      try {
+         const response = await fetch(`http://localhost:3001/diets/${id}`);
          const tablesData = await response.json();
          return tablesData;
       } catch (error) {
@@ -45,7 +55,8 @@ const useFetchData = () => {
       fetchTables,
       fetchSlides,
       fetchMenu,
-      fetchLose,
+      fetchDiets,
+      fetchSingleDiet,
    };
 };
 

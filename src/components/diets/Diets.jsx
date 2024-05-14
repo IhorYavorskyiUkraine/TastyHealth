@@ -1,71 +1,67 @@
 import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { useFetchData, useLoading } from "../../hooks/hooks";
+import { motion } from "framer-motion";
 
 import Header from "../header/Header";
 import Footer from "../footer/Footer";
 
-import loseImg from "/images/main/enjoy/1.jpg";
-import MaintainImg from "/images/main/enjoy/2.jpg";
-import GainImg from "/images/main/enjoy/3.jpg";
-
 import "./Diets.scss";
 
-const FoodAndDiet = () => {
+const Diets = () => {
+   const [data, setData] = useState(null);
+
+   const { loading, startLoading, stopLoading } = useLoading();
+   const { fetchDiets } = useFetchData();
+
+   const renderDiets = () => {
+      const diets = data?.map(item => {
+         return (
+            <Link
+               to={`/diets/${item.id}`}
+               className="diets__item"
+               key={item.id}
+            >
+               <img src={item.image} className="diets__image" alt="item.img" />
+               <h3 className="diets__name text">{item.name}</h3>
+               <p className="diets__user text">By {item.user}</p>
+            </Link>
+         );
+      });
+
+      return <ul className="diets__list">{diets}</ul>;
+   };
+
+   const onRequest = () => {
+      startLoading();
+      setTimeout(() => {
+         fetchDiets()
+            .then(data => setData(data))
+            .catch(error => {
+               console.error("Error fetching data:", error);
+            })
+            .finally(() => stopLoading());
+      }, 300);
+   };
+
+   useEffect(() => {
+      onRequest();
+   }, []);
+
    return (
       <div className="wrapper">
          <Header />
          <main className="main">
             <div className="container">
-               <section className="diets">
-                  <div className="diets__categories category">
-                     <div className="category__wrapper">
-                        <article className="category-lose">
-                           <h2 className="category-lose__title category-title">
-                              Lose Weight
-                           </h2>
-                           <Link
-                              className="category-lose__link"
-                              to="/diets/lose"
-                           >
-                              <img
-                                 className="category-lose__image category-image"
-                                 src={loseImg}
-                                 alt="LoseWeightImage"
-                              />
-                           </Link>
-                        </article>
-                        <article className="category-maintain">
-                           <h2 className="category-maintain__title category-title">
-                              Maintain Weight
-                           </h2>
-                           <Link
-                              className="category-maintain__link"
-                              to="/diets/maintain"
-                           >
-                              <img
-                                 className="category-maintain__image category-image"
-                                 src={MaintainImg}
-                                 alt="MaintainWeightImage"
-                              />
-                           </Link>
-                        </article>
-                        <article className="category-gain">
-                           <h2 className="category-gain__title category-title">
-                              Gain Weight
-                           </h2>
-                           <Link
-                              className="category-gain__link"
-                              to="/diets/gain"
-                           >
-                              <img
-                                 className="category-gain__image category-image"
-                                 src={GainImg}
-                                 alt="GainWeightImage"
-                              />
-                           </Link>
-                        </article>
-                     </div>
-                  </div>
-               </section>
+               <motion.section
+                  className="diets"
+                  initial={{ y: 150 }}
+                  whileInView={{ y: 0 }}
+                  transition={{ duration: 0.3 }}
+                  viewport={{ once: true }}
+               >
+                  {loading ? <div className="loader"></div> : renderDiets()}
+               </motion.section>
             </div>
          </main>
          <Footer />
@@ -73,4 +69,4 @@ const FoodAndDiet = () => {
    );
 };
 
-export default FoodAndDiet;
+export default Diets;

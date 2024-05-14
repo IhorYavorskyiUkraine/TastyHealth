@@ -9,13 +9,13 @@ import arrow from "/images/main/whyChooseUs/arrow.png";
 import "./WhyChooseUs.scss";
 
 const WhyChooseUs = () => {
-   const [data, setData] = useState([]);
+   const [data, setData] = useState(null);
 
    const { loading, startLoading, stopLoading } = useLoading();
    const { fetchTables } = useFetchData();
 
    const renderItems = () => {
-      const items = data.map(item => {
+      const items = data?.map(item => {
          return (
             <li className="whyChooseUs__item item" key={item.id}>
                <div className="item__image">
@@ -38,7 +38,10 @@ const WhyChooseUs = () => {
       setTimeout(() => {
          fetchTables()
             .then(data => setData(data))
-            .then(stopLoading());
+            .catch(error => {
+               console.error("Error fetching data:", error);
+            })
+            .finally(() => stopLoading());
       }, 300);
    };
 

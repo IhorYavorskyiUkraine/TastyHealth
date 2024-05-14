@@ -44,6 +44,7 @@
    border: 0.0625rem solid rgb(255, 240, 218);
    transition: all 0.3s;
    &:hover {
+      transform: scale(1.05);
       box-shadow: 0 50px 80px -30px var(--item-hover);
    }
    &__image {

@@ -8,7 +8,10 @@ const LazyKcalCalcPage = React.lazy(
 const LazyNotFoundPage = React.lazy(
    () => import("./notFoundPage/NotFoundPage.jsx"),
 );
-const LazyDietsPage = React.lazy(() => import("./dietsPage/DietsPage.jsx"));
+const LazyDietsPage = React.lazy(() => import("./dietsPage/DietsPage"));
+const LazyDietsSinglePage = React.lazy(
+   () => import("./dietsPage/dietsSinglePage/DietsSinglePage"),
+);
 const LazyAboutUsPage = React.lazy(() => import("./aboutUsPage/AboutUsPage"));
 
 export const KcalCalcPage = () => {
@@ -29,6 +32,13 @@ export const DietsPage = () => {
    return (
       <Suspense fallback={<div className="loader"></div>}>
          <LazyDietsPage />
+      </Suspense>
+   );
+};
+export const DietsSinglePage = () => {
+   return (
+      <Suspense fallback={<div className="loader"></div>}>
+         <LazyDietsSinglePage />
       </Suspense>
    );
 };

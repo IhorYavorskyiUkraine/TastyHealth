@@ -1,8 +1,16 @@
+import { motion } from "framer-motion";
+
 import "./Hero.scss";
 
 const Hero = () => {
    return (
-      <section className="aboutUs">
+      <motion.section
+         className="aboutUs"
+         initial={{ y: 150 }}
+         whileInView={{ y: 0 }}
+         transition={{ duration: 0.3 }}
+         viewport={{ once: true }}
+      >
          <div className="container">
             <div className="aboutUs__content">
                <p className="aboutUs__est text">EST. 2024</p>
@@ -33,7 +41,7 @@ const Hero = () => {
                </p>
             </div>
          </div>
-      </section>
+      </motion.section>
    );
 };
 

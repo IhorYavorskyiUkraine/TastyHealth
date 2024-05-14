@@ -5,6 +5,7 @@ import MainPage, {
    DietsPage,
    AboutUsPage,
    NotFoundPage,
+   DietsSinglePage,
 } from "./pages";
 
 import "./App.scss";
@@ -23,6 +24,12 @@ const router = createBrowserRouter([
    {
       path: "/diets",
       element: <DietsPage />,
+      errorElement: <NotFoundPage />,
+   },
+   ,
+   {
+      path: "/diets/:id",
+      element: <DietsSinglePage />,
       errorElement: <NotFoundPage />,
    },
    {

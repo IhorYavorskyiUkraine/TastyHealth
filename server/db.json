@@ -12,7 +12,7 @@
          "image": "/images/main/whyChooseUs/2.png",
          "title": "#1 Calorie Calculator",
          "text": "We offer a wide range of healthy recipes and recommendations to help you achieve the results you want.",
-         "link": "https://www.google.com/"
+         "link": "/kcal-calc"
       },
       {
          "id": 3,
@@ -85,143 +85,176 @@
          "id": 1,
          "image": "/images/main/enjoy/1.jpg",
          "name": "Lose Weight",
-         "link": "/diets/lose"
+         "link": "/diets"
       },
       {
          "id": 2,
          "image": "/images/main/enjoy/2.jpg",
          "name": "Maintain Weight",
-         "link": "/diets/maintain"
+         "link": "/diets"
       },
       {
          "id": 3,
          "image": "/images/main/enjoy/3.jpg",
          "name": "Gain Weight",
-         "link": "/diets/gain"
+         "link": "/diets"
       }
    ],
-   "lose": [
+   "diets": [
       {
          "id": 1,
-         "image": "/images/trendyCategory/1.jpg",
-         "name": "Dark green vegetables",
-         "link": "https://www.google.com/"
+         "name": "7 Day Weight Lose Diet for Mans",
+         "image": "/images/dietsPage/lose/male/1.jpg",
+         "user": "Ihor Yavorskyi",
+         "days": [
+            {
+               "day": "Day 1",
+               "image": "1",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 387,
+                     "food": [
+                        {
+                           "name": "2 servings Baked Banana-Nut Oatmeal Cups"
+                        },
+                        {
+                           "name": "1 clementine"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 190,
+                     "food": [
+                        {
+                           "name": "1 medium apple, sliced"
+                        },
+                        {
+                           "name": "1 Tbsp. peanut butter"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 325,
+                     "food": [
+                        {
+                           "name": "1 serving Veggie & Hummus Sandwich"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 325,
+                     "food": [
+                        {
+                           "name": "1 medium banana"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 451,
+                     "food": [
+                        {
+                           "name": "1 serving Sheet-Pan Chicken Fajita Bowls with 1/2 cup cooked brown rice"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 2",
+               "image": "2",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 387,
+                     "food": [
+                        {
+                           "name": "2 servings Baked Banana-Nut Oatmeal Cups"
+                        },
+                        {
+                           "name": "1 clementine"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 192,
+                     "food": [
+                        {
+                           "name": "1 oz. Cheddar cheese"
+                        },
+                        {
+                           "name": "1 hard-boiled egg"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 344,
+                     "food": [
+                        {
+                           "name": "1 serving Chipotle-Lime Cauliflower Taco Bowls"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 95,
+                     "food": [
+                        {
+                           "name": "1 medium apple"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 495,
+                     "food": [
+                        {
+                           "name": "1 serving Zucchini-Chickpea Veggie Burgers with Tahini-Ranch Sauce"
+                        },
+                        {
+                           "name": "1 serving Oven Baked Sweet Potato Fries"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
       },
       {
          "id": 2,
-         "image": "/images/trendyCategory/2.jpg",
-         "name": "Whole grains",
-         "link": "https://www.google.com/"
+         "name": "7 Day Weight Gain Diet for Mans",
+         "image": "/images/dietsPage/gain/male/3.jpg",
+         "user": "Ihor Yavorskyi"
       },
       {
          "id": 3,
-         "image": "/images/trendyCategory/3.jpg",
-         "name": "Beans and lentils",
-         "link": "https://www.google.com/"
+         "name": "7 Day Weight Lose Diet for Women",
+         "image": "/images/dietsPage/lose/female/1.jpg",
+         "user": "Oksana Volodimirіvna"
       },
       {
          "id": 4,
-         "image": "/images/trendyCategory/4.jpg",
-         "name": "Fish",
-         "link": "https://www.google.com/"
+         "name": "7 Day Weight Maintain Diet for Mans",
+         "image": "/images/dietsPage/maintain/male/2.jpg",
+         "user": "Ihor Yavorskyi"
       },
       {
          "id": 5,
-         "image": "/images/trendyCategory/5.jpg",
-         "name": "Berries",
-         "link": "https://www.google.com/"
+         "name": "7 Day Weight Gain Diet for Women",
+         "image": "/images/dietsPage/gain/female/1.jpg",
+         "user": "Єvgenіja Valentinіvna"
       },
       {
          "id": 6,
-         "image": "/images/trendyCategory/6.jpg",
-         "name": "Winter squash",
-         "link": "https://www.google.com/"
-      },
-      {
-         "id": 7,
-         "image": "/images/trendyCategory/7.jpg",
-         "name": "Soy Beans",
-         "link": "https://www.google.com/"
-      },
-      {
-         "id": 8,
-         "image": "/images/trendyCategory/8.jpg",
-         "name": "Flaxseed, nuts and seeds",
-         "link": "https://www.google.com/"
-      },
-      {
-         "id": 9,
-         "image": "/images/trendyCategory/9.jpg",
-         "name": "Organic yogurt",
-         "link": "https://www.google.com/"
-      },
-      {
-         "id": 10,
-         "image": "/images/trendyCategory/10.jpg",
-         "name": "Apples",
-         "link": "https://www.google.com/"
-      }
-   ],
-   "veganCategory": [
-      {
-         "id": 11,
-         "image": "/images/veganCategory/1.jpg",
-         "name": "Avocados",
-         "link": "https://www.google.com/"
-      },
-      {
-         "id": 12,
-         "image": "/images/veganCategory/2.jpg",
-         "name": "Bananas",
-         "link": "https://www.google.com/"
-      },
-      {
-         "id": 13,
-         "image": "/images/veganCategory/3.jpg",
-         "name": "Blueberries",
-         "link": "https://www.google.com/"
-      },
-      {
-         "id": 14,
-         "image": "/images/veganCategory/4.jpg",
-         "name": "Oranges",
-         "link": "https://www.google.com/"
-      },
-      {
-         "id": 15,
-         "image": "/images/veganCategory/5.jpg",
-         "name": "Strawberries",
-         "link": "https://www.google.com/"
-      },
-      {
-         "id": 16,
-         "image": "/images/veganCategory/6.jpg",
-         "name": "Pineapple",
-         "link": "https://www.google.com/"
-      },
-      {
-         "id": 17,
-         "image": "/images/veganCategory/7.jpg",
-         "name": "Kiwi",
-         "link": "https://www.google.com/"
-      },
-      {
-         "id": 18,
-         "image": "/images/veganCategory/8.jpg",
-         "name": "Lychee",
-         "link": "https://www.google.com/"
-      },
-      {
-         "id": 19,
-         "image": "/images/veganCategory/9.jpg",
-         "name": "Dragon Fruit",
-         "link": "https://www.google.com/"
-      },
-      {
-         "id": 20,
-         "image": "/images/veganCategory/10.jpg",
-         "name": "Papaya",
-         "link": "https://www.google.com/"
+         "name": "7 Day Weight Maintain Diet for Women",
+         "image": "/images/dietsPage/maintain/male/2.jpg",
+         "user": "Іrina Andrіїvna"
       }
    ]
 }

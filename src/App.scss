@@ -211,7 +211,6 @@ h6 {
    font-weight: 500;
    line-height: 160%;
    letter-spacing: -2%;
-   margin-bottom: 1.875rem;
    @media (max-width: 61.999rem) {
       margin-bottom: 1rem;
    }
@@ -226,6 +225,7 @@ h6 {
    height: 32.625rem;
    border-radius: 3.125rem;
    transition: all 0.3s;
+   cursor: pointer;
    &:hover {
       box-shadow: 0 50px 80px -30px var(--item-hover);
    }
