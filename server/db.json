@@ -109,26 +109,329 @@
          "days": [
             {
                "day": "Day 1",
-               "image": "1",
+               "image": "/images/dietsSinglePage/lose/male/1.jpg",
                "time": [
                   {
                      "time": "Breakfast",
-                     "kcal": 387,
+                     "kcal": 706,
                      "food": [
                         {
-                           "name": "2 servings Baked Banana-Nut Oatmeal Cups"
+                           "name": "2 servings Vegan Freezer Breakfast Burritos"
                         },
                         {
-                           "name": "1 clementine"
+                           "name": "1 cup strawberries"
                         }
                      ]
                   },
                   {
                      "time": "A.M. Snack",
-                     "kcal": 190,
+                     "kcal": 246,
                      "food": [
                         {
-                           "name": "1 medium apple, sliced"
+                           "name": "1 serving Almond-Honey Power Bar"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 649,
+                     "food": [
+                        {
+                           "name": "2 servings Vegetable & Tuna Pasta Salad"
+                        },
+                        {
+                           "name": "1 cup mango chunks"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 100,
+                     "food": [
+                        {
+                           "name": "1 large apple"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 315,
+                     "food": [
+                        {
+                           "name": "1 serving Sheet-Pan Maple-Mustard Pork Chops and Carrots"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 2",
+               "image": "/images/dietsSinglePage/lose/male/2.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 380,
+                     "food": [
+                        {
+                           "name": "1 serving Raspberry Peach Mango Smoothie Bowl"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 100,
+                     "food": [
+                        {
+                           "name": "15 baby carrots"
+                        },
+                        {
+                           "name": "3 Tbsp. hummus"
+                        },
+                        {
+                           "name": "1 medium orange"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 400,
+                     "food": [
+                        {
+                           "name": "1 serving Roasted Butternut Squash & Root Vegetables with Cauliflower Gnocchi"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 170,
+                     "food": [
+                        {
+                           "name": "1 serving Homemade Microwave Popcorn"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 951,
+                     "food": [
+                        {
+                           "name": "2 servings Philly Cheese Steak Sloppy Joes"
+                        },
+                        {
+                           "name": "2 cups fresh spinach & 1 cup shredded carrots topped with ½ Tbsp. olive oil & ½ Tbsp. balsamic vinegar"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 3",
+               "image": "/images/dietsSinglePage/lose/male/3.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 446,
+                     "food": [
+                        {
+                           "name": "1 servings Maple-Nut Granola"
+                        },
+                        {
+                           "name": "½ cup 2% milk"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 167,
+                     "food": [
+                        {
+                           "name": "8 whole-wheat crackers"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 448,
+                     "food": [
+                        {
+                           "name": "1 serving Roasted Butternut Squash & Root Vegetables with Cauliflower Gnocchi"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 234,
+                     "food": [
+                        {
+                           "name": "6 oz. 2% plain Greek yogurt"
+                        },
+                        {
+                           "name": "1 cup strawberries"
+                        },
+                        {
+                           "name": "1 Tbsp. honey"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 709,
+                     "food": [
+                        {
+                           "name": "2 servings Creamy Chicken, Brussels Sprouts and Mushroom One-Pot Pasta"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 4",
+               "image": "/images/dietsSinglePage/lose/male/4.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 446,
+                     "food": [
+                        {
+                           "name": "1 servings Maple-Nut Granola"
+                        },
+                        {
+                           "name": "½ cup 2% milk"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 218,
+                     "food": [
+                        {
+                           "name": "15 carrot sticks"
+                        },
+                        {
+                           "name": "1/4 cup hummus"
+                        },
+                        {
+                           "name": "1 medium orange"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 428,
+                     "food": [
+                        {
+                           "name": "1 serving Roasted Butternut Squash & Root Vegetables with Cauliflower Gnocchi"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 260,
+                     "food": [
+                        {
+                           "name": "3 graham crackers"
+                        },
+                        {
+                           "name": "1 medium apple"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 651,
+                     "food": [
+                        {
+                           "name": "1 serving Southern Style Oven-Fried Chicken"
+                        },
+                        {
+                           "name": "1 serving Greek Potato Salad"
+                        },
+                        {
+                           "name": "1 serving Garlicky Green Beans"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 5",
+               "image": "/images/dietsSinglePage/lose/male/5.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 305,
+                     "food": [
+                        {
+                           "name": "1 serving Raspberry Peach Mango Smoothie Bowl"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 246,
+                     "food": [
+                        {
+                           "name": "1 servings Almond-Honey Power Bars"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 640,
+                     "food": [
+                        {
+                           "name": "1 serving Roasted Butternut Squash & Root Vegetables with Cauliflower Gnocchi"
+                        },
+                        {
+                           "name": "1 slice whole-wheat toast with 1 tsp. unsalted butter"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 160,
+                     "food": [
+                        {
+                           "name": "2 servings Homemade Microwave Popcorn"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 690,
+                     "food": [
+                        {
+                           "name": "2 servings Green Goddess Salad with Chicken"
+                        },
+                        {
+                           "name": "1 slice whole-wheat toast with 1 tsp. unsalted butter"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 6",
+               "image": "/images/dietsSinglePage/lose/male/6.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 450,
+                     "food": [
+                        {
+                           "name": "1 serving Raspberry Peach Mango Smoothie Bowl"
+                        },
+                        {
+                           "name": "1 medium orange"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 210,
+                     "food": [
+                        {
+                           "name": "1 medium apple"
                         },
                         {
                            "name": "1 Tbsp. peanut butter"
@@ -137,88 +440,97 @@
                   },
                   {
                      "time": "Lunch",
-                     "kcal": 325,
+                     "kcal": 430,
                      "food": [
                         {
-                           "name": "1 serving Veggie & Hummus Sandwich"
+                           "name": "1 servings Creamy Avocado and White Bean Wraps"
+                        },
+                        {
+                           "name": "1 cup strawberries"
                         }
                      ]
                   },
                   {
                      "time": "P.M. Snack",
-                     "kcal": 325,
+                     "kcal": 230,
                      "food": [
                         {
-                           "name": "1 medium banana"
+                           "name": "4 graham crackers"
                         }
                      ]
                   },
                   {
                      "time": "Dinner",
-                     "kcal": 451,
+                     "kcal": 720,
                      "food": [
                         {
-                           "name": "1 serving Sheet-Pan Chicken Fajita Bowls with 1/2 cup cooked brown rice"
+                           "name": "2 servings Tortilla Chip Flounder with Black Bean Salad"
                         }
                      ]
                   }
                ]
             },
             {
-               "day": "Day 2",
-               "image": "2",
+               "day": "Day 7",
+               "image": "/images/dietsSinglePage/lose/male/7.jpg",
                "time": [
                   {
                      "time": "Breakfast",
-                     "kcal": 387,
+                     "kcal": 644,
                      "food": [
                         {
-                           "name": "2 servings Baked Banana-Nut Oatmeal Cups"
+                           "name": "1 serving Vegan Freezer Burritos"
                         },
                         {
-                           "name": "1 clementine"
+                           "name": "1 medium banana"
+                        },
+                        {
+                           "name": "2 Tbsp. peanut butter"
                         }
                      ]
                   },
                   {
                      "time": "A.M. Snack",
-                     "kcal": 192,
+                     "kcal": 230,
                      "food": [
                         {
-                           "name": "1 oz. Cheddar cheese"
+                           "name": "6 oz. 2% plain Greek yogurt"
                         },
                         {
-                           "name": "1 hard-boiled egg"
+                           "name": "½ cup blueberries"
+                        },
+                        {
+                           "name": "1 Tbsp. honey"
                         }
                      ]
                   },
                   {
                      "time": "Lunch",
-                     "kcal": 344,
+                     "kcal": 400,
                      "food": [
                         {
-                           "name": "1 serving Chipotle-Lime Cauliflower Taco Bowls"
+                           "name": "1 servings Creamy Avocado and White Bean Wraps"
                         }
                      ]
                   },
                   {
                      "time": "P.M. Snack",
-                     "kcal": 95,
+                     "kcal": 246,
                      "food": [
                         {
-                           "name": "1 medium apple"
+                           "name": "1 serving Almond-Honey Power Bar"
                         }
                      ]
                   },
                   {
                      "time": "Dinner",
-                     "kcal": 495,
+                     "kcal": 465,
                      "food": [
                         {
-                           "name": "1 serving Zucchini-Chickpea Veggie Burgers with Tahini-Ranch Sauce"
+                           "name": "1 serving Creamed Spinach-Stuffed Salmon"
                         },
                         {
-                           "name": "1 serving Oven Baked Sweet Potato Fries"
+                           "name": "2 servings Garlicky Green Beans"
                         }
                      ]
                   }
@@ -230,7 +542,504 @@
          "id": 2,
          "name": "7 Day Weight Gain Diet for Mans",
          "image": "/images/dietsPage/gain/male/3.jpg",
-         "user": "Ihor Yavorskyi"
+         "user": "Ihor Yavorskyi",
+         "days": [
+            {
+               "day": "Day 1",
+               "image": "/images/dietsSinglePage/gain/male/1.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 706,
+                     "food": [
+                        {
+                           "name": "2 servings Vegan Freezer Breakfast Burritos"
+                        },
+                        {
+                           "name": "1 cup strawberries"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 492,
+                     "food": [
+                        {
+                           "name": "2 serving Almond-Honey Power Bar"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 649,
+                     "food": [
+                        {
+                           "name": "2 servings Vegetable & Tuna Pasta Salad"
+                        },
+                        {
+                           "name": "1 cup mango chunks"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 420,
+                     "food": [
+                        {
+                           "name": "1 large apple"
+                        },
+                        {
+                           "name": "3 Tbsp. peanut butter"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 715,
+                     "food": [
+                        {
+                           "name": "1 serving Sheet-Pan Maple-Mustard Pork Chops and Carrots"
+                        },
+                        {
+                           "name": "1 1/2 cups Easy Brown Rice"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 2",
+               "image": "/images/dietsSinglePage/gain/male/2.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 530,
+                     "food": [
+                        {
+                           "name": "1 serving Raspberry Peach Mango Smoothie Bowl"
+                        },
+                        {
+                           "name": "2 hard-boiled eggs"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 392,
+                     "food": [
+                        {
+                           "name": "15 baby carrots"
+                        },
+                        {
+                           "name": "6 whole-wheat crackers"
+                        },
+                        {
+                           "name": "4 Tbsp. hummus"
+                        },
+                        {
+                           "name": "1 medium orange"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 648,
+                     "food": [
+                        {
+                           "name": "1 serving Roasted Butternut Squash & Root Vegetables with Cauliflower Gnocchi"
+                        },
+                        {
+                           "name": "1 slice whole-wheat toast with 1 tsp. unsalted butter"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 265,
+                     "food": [
+                        {
+                           "name": "1 serving Homemade Microwave Popcorn"
+                        },
+                        {
+                           "name": "1 large banana"
+                        },
+                        {
+                           "name": "8 unsalted almonds"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 1151,
+                     "food": [
+                        {
+                           "name": "2 servings Philly Cheese Steak Sloppy Joes"
+                        },
+                        {
+                           "name": "2 cups fresh spinach & 1 cup shredded carrots topped with ½ Tbsp. olive oil & ½ Tbsp. balsamic vinegar"
+                        },
+                        {
+                           "name": "8 oz. 2% plain Greek yogurt with 1 Tbsp. honey & 1 cup strawberries."
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 3",
+               "image": "/images/dietsSinglePage/gain/male/3.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 646,
+                     "food": [
+                        {
+                           "name": "2 servings Maple-Nut Granola"
+                        },
+                        {
+                           "name": "1 cup 2% milk"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 367,
+                     "food": [
+                        {
+                           "name": "8 whole-wheat crackers"
+                        },
+                        {
+                           "name": "1 slice Swiss cheese"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 948,
+                     "food": [
+                        {
+                           "name": "2 serving Roasted Butternut Squash & Root Vegetables with Cauliflower Gnocchi"
+                        },
+                        {
+                           "name": "1 slice whole-wheat toast with 1 tsp. unsalted butter"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 334,
+                     "food": [
+                        {
+                           "name": "6 oz. 2% plain Greek yogurt"
+                        },
+                        {
+                           "name": "1 cup strawberries"
+                        },
+                        {
+                           "name": "1 Tbsp. honey"
+                        },
+                        {
+                           "name": "1 graham cracker"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 709,
+                     "food": [
+                        {
+                           "name": "2 servings Creamy Chicken, Brussels Sprouts and Mushroom One-Pot Pasta"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 4",
+               "image": "/images/dietsSinglePage/gain/male/4.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 646,
+                     "food": [
+                        {
+                           "name": "1 servings Maple-Nut Granola"
+                        },
+                        {
+                           "name": "½ cup 2% milk"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 218,
+                     "food": [
+                        {
+                           "name": "15 carrot sticks"
+                        },
+                        {
+                           "name": "1/4 cup hummus"
+                        },
+                        {
+                           "name": "1 medium orange"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 848,
+                     "food": [
+                        {
+                           "name": "1 serving Roasted Butternut Squash & Root Vegetables with Cauliflower Gnocchi"
+                        },
+                        {
+                           "name": "2 slice whole-wheat toast with 1 tsp. unsalted butter"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 435,
+                     "food": [
+                        {
+                           "name": "6 graham crackers"
+                        },
+                        {
+                           "name": "1 medium apple"
+                        },
+                        {
+                           "name": "2 Tbsp. peanut butter"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 851,
+                     "food": [
+                        {
+                           "name": "1 serving Southern Style Oven-Fried Chicken"
+                        },
+                        {
+                           "name": "1 serving Greek Potato Salad"
+                        },
+                        {
+                           "name": "2 serving Garlicky Green Beans"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 5",
+               "image": "/images/dietsSinglePage/gain/male/5.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 507,
+                     "food": [
+                        {
+                           "name": "1 serving Raspberry Peach Mango Smoothie Bowl"
+                        },
+                        {
+                           "name": "2 hard-boiled eggs"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 492,
+                     "food": [
+                        {
+                           "name": "2 servings Almond-Honey Power Bars"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 648,
+                     "food": [
+                        {
+                           "name": "1 serving Roasted Butternut Squash & Root Vegetables with Cauliflower Gnocchi"
+                        },
+                        {
+                           "name": "1 slice whole-wheat toast with 1 tsp. unsalted butter"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 560,
+                     "food": [
+                        {
+                           "name": "2 servings Homemade Microwave Popcorn"
+                        },
+                        {
+                           "name": "1 medium apple"
+                        },
+                        {
+                           "name": "2 Tbsp. natural peanut butter"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 790,
+                     "food": [
+                        {
+                           "name": "2 servings Green Goddess Salad with Chicken"
+                        },
+                        {
+                           "name": "1 slice whole-wheat toast with 1 tsp. unsalted butter"
+                        },
+                        {
+                           "name": " square of dark chocolate"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 6",
+               "image": "/images/dietsSinglePage/gain/male/6.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 569,
+                     "food": [
+                        {
+                           "name": "1 serving Raspberry Peach Mango Smoothie Bowl"
+                        },
+                        {
+                           "name": "1 medium orange"
+                        },
+                        {
+                           "name": "2 hard-boiled eggs"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 214,
+                     "food": [
+                        {
+                           "name": "1 medium apple"
+                        },
+                        {
+                           "name": "1 Tbsp. peanut butter"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 738,
+                     "food": [
+                        {
+                           "name": "2 servings Creamy Avocado and White Bean Wraps"
+                        },
+                        {
+                           "name": "1 cup strawberries"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 541,
+                     "food": [
+                        {
+                           "name": "4 graham crackers"
+                        },
+                        {
+                           "name": "2 Tbsp. peanut butter"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 1020,
+                     "food": [
+                        {
+                           "name": "2 servings Tortilla Chip Flounder with Black Bean Salad"
+                        },
+                        {
+                           "name": "1½ cups Easy Brown Rice"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 7",
+               "image": "/images/dietsSinglePage/gain/male/7.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 644,
+                     "food": [
+                        {
+                           "name": "1 serving Vegan Freezer Burritos"
+                        },
+                        {
+                           "name": "1 medium banana"
+                        },
+                        {
+                           "name": "2 Tbsp. peanut butter"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 230,
+                     "food": [
+                        {
+                           "name": "6 oz. 2% plain Greek yogurt"
+                        },
+                        {
+                           "name": "½ cup blueberries"
+                        },
+                        {
+                           "name": "1 Tbsp. honey"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 692,
+                     "food": [
+                        {
+                           "name": "2 servings Creamy Avocado and White Bean Wraps"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 546,
+                     "food": [
+                        {
+                           "name": "2 serving Almond-Honey Power Bar"
+                        },
+                        {
+                           "name": "Small pear"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 890,
+                     "food": [
+                        {
+                           "name": "1 serving Creamed Spinach-Stuffed Salmon"
+                        },
+                        {
+                           "name": "2 servings Garlicky Green Beans"
+                        },
+                        {
+                           "name": "2 cup Easy Brown Rice"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
       },
       {
          "id": 3,
@@ -242,13 +1051,480 @@
          "id": 4,
          "name": "7 Day Weight Maintain Diet for Mans",
          "image": "/images/dietsPage/maintain/male/2.jpg",
-         "user": "Ihor Yavorskyi"
+         "user": "Ihor Yavorskyi",
+         "days": [
+            {
+               "day": "Day 1",
+               "image": "/images/dietsSinglePage/maintain/male/1.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 706,
+                     "food": [
+                        {
+                           "name": "2 servings Vegan Freezer Breakfast Burritos"
+                        },
+                        {
+                           "name": "1 cup strawberries"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 246,
+                     "food": [
+                        {
+                           "name": "1 serving Almond-Honey Power Bar"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 649,
+                     "food": [
+                        {
+                           "name": "2 servings Vegetable & Tuna Pasta Salad"
+                        },
+                        {
+                           "name": "1 cup mango chunks"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 200,
+                     "food": [
+                        {
+                           "name": "1 large apple"
+                        },
+                        {
+                           "name": "1 Tbsp. natural peanut butter"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 715,
+                     "food": [
+                        {
+                           "name": "1 serving Sheet-Pan Maple-Mustard Pork Chops and Carrots"
+                        },
+                        {
+                           "name": "1 1/2 cups Easy Brown Rice"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 2",
+               "image": "/images/dietsSinglePage/maintain/male/2.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 430,
+                     "food": [
+                        {
+                           "name": "1 serving Raspberry Peach Mango Smoothie Bowl"
+                        },
+                        {
+                           "name": "1 hard-boiled egg"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 192,
+                     "food": [
+                        {
+                           "name": "15 baby carrots"
+                        },
+                        {
+                           "name": "3 Tbsp. hummus"
+                        },
+                        {
+                           "name": "1 medium orange"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 648,
+                     "food": [
+                        {
+                           "name": "1 serving Roasted Butternut Squash & Root Vegetables with Cauliflower Gnocchi"
+                        },
+                        {
+                           "name": "1 slice whole-wheat toast with 1 tsp. unsalted butter"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 265,
+                     "food": [
+                        {
+                           "name": "1 serving Homemade Microwave Popcorn"
+                        },
+                        {
+                           "name": "1 large banana"
+                        },
+                        {
+                           "name": "8 unsalted almonds"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 951,
+                     "food": [
+                        {
+                           "name": "2 servings Philly Cheese Steak Sloppy Joes"
+                        },
+                        {
+                           "name": "2 cups fresh spinach & 1 cup shredded carrots topped with ½ Tbsp. olive oil & ½ Tbsp. balsamic vinegar"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 3",
+               "image": "/images/dietsSinglePage/maintain/male/3.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 646,
+                     "food": [
+                        {
+                           "name": "2 servings Maple-Nut Granola"
+                        },
+                        {
+                           "name": "1 cup 2% milk"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 267,
+                     "food": [
+                        {
+                           "name": "8 whole-wheat crackers"
+                        },
+                        {
+                           "name": "1 slice Swiss cheese"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 648,
+                     "food": [
+                        {
+                           "name": "1 serving Roasted Butternut Squash & Root Vegetables with Cauliflower Gnocchi"
+                        },
+                        {
+                           "name": "1 slice whole-wheat toast with 1 tsp. unsalted butter"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 234,
+                     "food": [
+                        {
+                           "name": "6 oz. 2% plain Greek yogurt"
+                        },
+                        {
+                           "name": "1 cup strawberries"
+                        },
+                        {
+                           "name": "1 Tbsp. honey"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 709,
+                     "food": [
+                        {
+                           "name": "2 servings Creamy Chicken, Brussels Sprouts and Mushroom One-Pot Pasta"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 4",
+               "image": "/images/dietsSinglePage/maintain/male/4.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 646,
+                     "food": [
+                        {
+                           "name": "2 servings Maple-Nut Granola"
+                        },
+                        {
+                           "name": "1 cup 2% milk"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 218,
+                     "food": [
+                        {
+                           "name": "15 carrot sticks"
+                        },
+                        {
+                           "name": "1/4 cup hummus"
+                        },
+                        {
+                           "name": "1 medium orange"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 648,
+                     "food": [
+                        {
+                           "name": "1 serving Roasted Butternut Squash & Root Vegetables with Cauliflower Gnocchi"
+                        },
+                        {
+                           "name": "1 slice whole-wheat toast with 1 tsp. unsalted butter"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 335,
+                     "food": [
+                        {
+                           "name": "4 graham crackers"
+                        },
+                        {
+                           "name": "1 medium apple"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 651,
+                     "food": [
+                        {
+                           "name": "1 serving Southern Style Oven-Fried Chicken"
+                        },
+                        {
+                           "name": "1 serving Greek Potato Salad"
+                        },
+                        {
+                           "name": "1 serving Garlicky Green Beans"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 5",
+               "image": "/images/dietsSinglePage/maintain/male/5.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 507,
+                     "food": [
+                        {
+                           "name": "1 serving Raspberry Peach Mango Smoothie Bowl"
+                        },
+                        {
+                           "name": "2 hard-boiled eggs"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 492,
+                     "food": [
+                        {
+                           "name": "2 servings Almond-Honey Power Bars"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 640,
+                     "food": [
+                        {
+                           "name": "1 serving Roasted Butternut Squash & Root Vegetables with Cauliflower Gnocchi"
+                        },
+                        {
+                           "name": "1 slice whole-wheat toast with 1 tsp. unsalted butter"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 160,
+                     "food": [
+                        {
+                           "name": "2 servings Homemade Microwave Popcorn"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 690,
+                     "food": [
+                        {
+                           "name": "2 servings Green Goddess Salad with Chicken"
+                        },
+                        {
+                           "name": "1 slice whole-wheat toast with 1 tsp. unsalted butter"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 6",
+               "image": "/images/dietsSinglePage/maintain/male/6.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 569,
+                     "food": [
+                        {
+                           "name": "1 serving Raspberry Peach Mango Smoothie Bowl"
+                        },
+                        {
+                           "name": "1 medium orange"
+                        },
+                        {
+                           "name": "2 hard-boiled eggs"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 210,
+                     "food": [
+                        {
+                           "name": "1 medium apple"
+                        },
+                        {
+                           "name": "1 Tbsp. peanut butter"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 738,
+                     "food": [
+                        {
+                           "name": "2 servings Creamy Avocado and White Bean Wraps"
+                        },
+                        {
+                           "name": "1 cup strawberries"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 230,
+                     "food": [
+                        {
+                           "name": "4 graham crackers"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 720,
+                     "food": [
+                        {
+                           "name": "2 servings Tortilla Chip Flounder with Black Bean Salad"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 7",
+               "image": "/images/dietsSinglePage/maintain/male/7.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 644,
+                     "food": [
+                        {
+                           "name": "1 serving Vegan Freezer Burritos"
+                        },
+                        {
+                           "name": "1 medium banana"
+                        },
+                        {
+                           "name": "2 Tbsp. peanut butter"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 230,
+                     "food": [
+                        {
+                           "name": "6 oz. 2% plain Greek yogurt"
+                        },
+                        {
+                           "name": "½ cup blueberries"
+                        },
+                        {
+                           "name": "1 Tbsp. honey"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 692,
+                     "food": [
+                        {
+                           "name": "2 servings Creamy Avocado and White Bean Wraps"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 246,
+                     "food": [
+                        {
+                           "name": "1 serving Almond-Honey Power Bar"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 665,
+                     "food": [
+                        {
+                           "name": "1 serving Creamed Spinach-Stuffed Salmon"
+                        },
+                        {
+                           "name": "2 servings Garlicky Green Beans"
+                        },
+                        {
+                           "name": "3/4 cup Easy Brown Rice"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
       },
       {
          "id": 5,
          "name": "7 Day Weight Gain Diet for Women",
          "image": "/images/dietsPage/gain/female/1.jpg",
-         "user": "Єvgenіja Valentinіvna"
+         "user": "Evgenіja Valentinіvna"
       },
       {
          "id": 6,
