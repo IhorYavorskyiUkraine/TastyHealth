@@ -1,0 +1,90 @@
+.kcalCalc {
+   padding: 3rem 0rem;
+   &__content {
+   }
+
+   &__calc {
+   }
+
+   &__info {
+   }
+
+   &__title {
+   }
+
+   &__desc {
+   }
+
+   &__use {
+   }
+
+   &__list {
+   }
+
+   &__top {
+      display: grid;
+      grid-template-columns: repeat(3, 12.5rem);
+      justify-content: center;
+      gap: 2rem;
+   }
+
+   &__main {
+      display: grid;
+      grid-template-columns: repeat(3, 12.5rem);
+      justify-content: center;
+      gap: 2rem;
+   }
+
+   &__bottom {
+      display: grid;
+      grid-template-columns: 12.5rem;
+      justify-content: center;
+      gap: 2rem;
+   }
+
+   &__button {
+      display: inline-flex;
+      padding: 1.3rem 2.5rem;
+      background: #fff;
+      transition: all 0.3s;
+      border-radius: 6.25rem;
+      margin-bottom: 5.5rem;
+      @media (max-width: 61.999rem) {
+         margin-bottom: 1rem;
+      }
+      span {
+         color: var(--btn-text);
+         font-size: 1.125rem;
+         font-weight: 600;
+         line-height: 130%;
+         @media (max-width: 48.249rem) {
+            font-size: 0.9rem;
+         }
+      }
+      &:hover {
+         background: var(--btn-hover);
+      }
+   }
+
+   &__item {
+      display: inline-flex;
+      flex-direction: column;
+      text-align: center;
+      input {
+         padding: 1.3rem 2.5rem;
+         border-radius: 6.25rem;
+      }
+      select {
+         font-size: 1.25rem;
+      }
+      // input::-webkit-outer-spin-button,
+      // input::-webkit-inner-spin-button {
+      //    -webkit-appearance: none;
+      //    margin: 0;
+      // }
+      select {
+         padding: 1.3rem 2.5rem;
+         border-radius: 6.25rem;
+      }
+   }
+}

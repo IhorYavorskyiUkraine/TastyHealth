@@ -240,6 +240,10 @@ h6 {
    }
 }
 
+.btn-active {
+   background: var(--btn-bg);
+}
+
 .name {
    position: absolute;
    bottom: 3rem;

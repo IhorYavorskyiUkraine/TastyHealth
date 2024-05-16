@@ -1045,7 +1045,411 @@
          "id": 3,
          "name": "7 Day Weight Lose Diet for Women",
          "image": "/images/dietsPage/lose/female/1.jpg",
-         "user": "Oksana Volodimirіvna"
+         "user": "Oksana Volodimirіvna",
+         "days": [
+            {
+               "day": "Day 1",
+               "image": "/images/dietsSinglePage/lose/female/1.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 337,
+                     "food": [
+                        {
+                           "name": "1 serving Sun-Dried Tomato & Feta Egg Bites "
+                        },
+                        {
+                           "name": "1 medium apple"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 141,
+                     "food": [
+                        {
+                           "name": "2 servings Peanut Butter-Oat Energy Balls "
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 223,
+                     "food": [
+                        {
+                           "name": "1 serving Cucumber Salad Sandwich with 1/4 cup blueberries"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 41,
+                     "food": [
+                        {
+                           "name": "¼ cup raspberries"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 443,
+                     "food": [
+                        {
+                           "name": "1 serving Smoky Collards & Shrimp with Cheesy Grits"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 2",
+               "image": "/images/dietsSinglePage/lose/female/2.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 160,
+                     "food": [
+                        {
+                           "name": "1 serving Quinoa & Chia Oatmeal Mix, prepared with water"
+                        },
+                        {
+                           "name": "½ cup sliced strawberries"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 41,
+                     "food": [
+                        {
+                           "name": "½ cup blueberries"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 360,
+                     "food": [
+                        {
+                           "name": "1 serving Chicken Fajita Bowls"
+                        },
+                        {
+                           "name": "1 clementine"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 71,
+                     "food": [
+                        {
+                           "name": "¼ cup raspberries"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 566,
+                     "food": [
+                        {
+                           "name": "1 serving Chicken Parmesan & Quinoa Stuffed Peppers"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 3",
+               "image": "/images/dietsSinglePage/lose/female/3.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 307,
+                     "food": [
+                        {
+                           "name": "1 serving Sun-Dried Tomato & Feta Egg Bites "
+                        },
+                        {
+                           "name": "1 cup low-fat plain kefir"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 51,
+                     "food": [
+                        {
+                           "name": "1 plum"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 325,
+                     "food": [
+                        {
+                           "name": "1 serving Chicken Fajita Bowls "
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 157,
+                     "food": [
+                        {
+                           "name": "¼ cup raspberries"
+                        },
+                        {
+                           "name": "2 servings Peanut Butter-Oat Energy Balls "
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 404,
+                     "food": [
+                        {
+                           "name": "1 serving Grilled Pork Tenderloin with Cherries"
+                        },
+                        {
+                           "name": "1 serving Roasted Garlic Butter Potatoes"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 4",
+               "image": "/images/dietsSinglePage/lose/female/4.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 318,
+                     "food": [
+                        {
+                           "name": "1 serving Quinoa & Chia Oatmeal Mix, prepared with water"
+                        },
+                        {
+                           "name": "2 Tbsp. chopped walnuts"
+                        },
+                        {
+                           "name": "½ cup sliced strawberries"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 212,
+                     "food": [
+                        {
+                           "name": "3 servings Peanut Butter-Oat Energy Balls "
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 325,
+                     "food": [
+                        {
+                           "name": "1 serving Chicken Fajita Bowls "
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 41,
+                     "food": [
+                        {
+                           "name": "¼ cup raspberries"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 320,
+                     "food": [
+                        {
+                           "name": "1 serving Grilled Chicken with Red Pepper-Pecan Romesco Sauce"
+                        },
+                        {
+                           "name": "1 cup steamed green beans "
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 5",
+               "image": "/images/dietsSinglePage/lose/female/5.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 287,
+                     "food": [
+                        {
+                           "name": "1 serving Sun-Dried Tomato & Feta Egg Bites"
+                        },
+                        {
+                           "name": "1 cup low-fat plain kefir"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 51,
+                     "food": [
+                        {
+                           "name": "1 plum"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 384,
+                     "food": [
+                        {
+                           "name": "1 serving Chicken Fajita Bowls"
+                        },
+                        {
+                           "name": "1 medium peach"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 126,
+                     "food": [
+                        {
+                           "name": "1 (5.3-oz.) container low-fat plain strained (Greek-style) yogurt"
+                        },
+                        {
+                           "name": "¼ cup raspberries"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 391,
+                     "food": [
+                        {
+                           "name": "1 serving Anti-Inflammatory Lemony Salmon & Orzo Casserole"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 6",
+               "image": "/images/dietsSinglePage/lose/female/6.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 318,
+                     "food": [
+                        {
+                           "name": "1 serving Quinoa & Chia Oatmeal Mix, prepared with water"
+                        },
+                        {
+                           "name": "2 Tbsp. chopped walnuts"
+                        },
+                        {
+                           "name": "½ cup sliced strawberries"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 50,
+                     "food": [
+                        {
+                           "name": "1 medium peach"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 391,
+                     "food": [
+                        {
+                           "name": "1 serving Anti-Inflammatory Lemony Salmon & Orzo Casserole"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 41,
+                     "food": [
+                        {
+                           "name": "½ cup blueberries"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 409,
+                     "food": [
+                        {
+                           "name": "1 serving Grilled Steak Salad with Corn, Cucumbers & Sweet Onion Dressing"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 7",
+               "image": "/images/dietsSinglePage/lose/female/7.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 287,
+                     "food": [
+                        {
+                           "name": "1 serving Sun-Dried Tomato & Feta Egg Bites"
+                        },
+                        {
+                           "name": "1 medium apple"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 131,
+                     "food": [
+                        {
+                           "name": "1 large pear"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 391,
+                     "food": [
+                        {
+                           "name": "1 serving Anti-Inflammatory Lemony Salmon & Orzo Casserole"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 42,
+                     "food": [
+                        {
+                           "name": "½ cup blueberries"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 355,
+                     "food": [
+                        {
+                           "name": "1 serving Seared Halibut Fish Tacos with Cilantro Slaw"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
       },
       {
          "id": 4,
@@ -1524,13 +1928,950 @@
          "id": 5,
          "name": "7 Day Weight Gain Diet for Women",
          "image": "/images/dietsPage/gain/female/1.jpg",
-         "user": "Evgenіja Valentinіvna"
+         "user": "Evgenіja Valentinіvna",
+         "days": [
+            {
+               "day": "Day 1",
+               "image": "/images/dietsSinglePage/gain/female/1.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 387,
+                     "food": [
+                        {
+                           "name": "1 serving Sun-Dried Tomato & Feta Egg Bites"
+                        },
+                        {
+                           "name": "1 medium apple"
+                        },
+                        {
+                           "name": "1 cup low-fat plain kefir"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 341,
+                     "food": [
+                        {
+                           "name": "2 servings Peanut Butter-Oat Energy Balls"
+                        },
+                        {
+                           "name": "¼ cup unsalted dry-roasted almonds"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 423,
+                     "food": [
+                        {
+                           "name": "1 serving Loaded Cucumber & Avocado Sandwich"
+                        },
+                        {
+                           "name": "¼ cup blueberries"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 426,
+                     "food": [
+                        {
+                           "name": "1 (5.3-oz.) container low-fat plain strained (Greek-style) yogurt"
+                        },
+                        {
+                           "name": "¼ cup raspberries"
+                        },
+                        {
+                           "name": "1 medium banana with 1½ Tbsp. natural peanut butter"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 443,
+                     "food": [
+                        {
+                           "name": "1 serving Smoky Collards & Shrimp with Cheesy Grits"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 2",
+               "image": "/images/dietsSinglePage/gain/female/2.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 318,
+                     "food": [
+                        {
+                           "name": "1 serving Quinoa & Chia Oatmeal Mix, prepared with water"
+                        },
+                        {
+                           "name": "2 Tbsp. chopped walnuts"
+                        },
+                        {
+                           "name": "½ cup sliced strawberries"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 282,
+                     "food": [
+                        {
+                           "name": "4 servings Peanut Butter-Oat Energy Balls "
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 360,
+                     "food": [
+                        {
+                           "name": "1 serving Chicken Fajita Bowls"
+                        },
+                        {
+                           "name": "1 clementine"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 326,
+                     "food": [
+                        {
+                           "name": "1 (5.3-oz.) container low-fat plain strained (Greek-style) yogurt"
+                        },
+                        {
+                           "name": "¼ cup raspberries"
+                        },
+                        {
+                           "name": "3 Tbsp. chopped walnuts"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 701,
+                     "food": [
+                        {
+                           "name": "1 serving Chicken Parmesan & Quinoa Stuffed Peppers"
+                        },
+                        {
+                           "name": "1 serving Caprese Salad with Cherry Tomatoes"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 3",
+               "image": "/images/dietsSinglePage/gain/female/3.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 387,
+                     "food": [
+                        {
+                           "name": "1 serving Sun-Dried Tomato & Feta Egg Bites "
+                        },
+                        {
+                           "name": "1 medium apple"
+                        },
+                        {
+                           "name": "1 cup low-fat plain kefir"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 231,
+                     "food": [
+                        {
+                           "name": "1 large pear"
+                        },
+                        {
+                           "name": "¼ cup unsalted dry-roasted almonds "
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 325,
+                     "food": [
+                        {
+                           "name": "1 serving Chicken Fajita Bowls "
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 467,
+                     "food": [
+                        {
+                           "name": "1 (5.3-oz.) container low-fat plain strained (Greek-style) yogurt"
+                        },
+                        {
+                           "name": "¼ cup raspberries"
+                        },
+                        {
+                           "name": "3 servings Peanut Butter-Oat Energy Balls "
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 604,
+                     "food": [
+                        {
+                           "name": "1 serving Grilled Pork Tenderloin with Cherries"
+                        },
+                        {
+                           "name": "1 serving Roasted Garlic Butter Potatoes"
+                        },
+                        {
+                           "name": "1 serving Massaged Kale Salad"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 4",
+               "image": "/images/dietsSinglePage/gain/female/4.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 518,
+                     "food": [
+                        {
+                           "name": "1 serving Quinoa & Chia Oatmeal Mix, prepared with water"
+                        },
+                        {
+                           "name": "¼ cup chopped walnuts"
+                        },
+                        {
+                           "name": "½ cup sliced strawberries"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 312,
+                     "food": [
+                        {
+                           "name": "3 servings Peanut Butter-Oat Energy Balls"
+                        },
+                        {
+                           "name": "1 cup low-fat plain kefir"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 375,
+                     "food": [
+                        {
+                           "name": "1 serving Chicken Fajita Bowls"
+                        },
+                        {
+                           "name": "1 medium apple"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 326,
+                     "food": [
+                        {
+                           "name": "1 (5.3-oz.) container low-fat plain strained (Greek-style) yogurt"
+                        },
+                        {
+                           "name": "¼ cup raspberries"
+                        },
+                        {
+                           "name": "¼ cup unsalted dry-roasted almonds"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 520,
+                     "food": [
+                        {
+                           "name": "1 serving Grilled Chicken with Red Pepper-Pecan Romesco Sauce"
+                        },
+                        {
+                           "name": "1 serving Whole-Wheat Couscous with Parmesan & Peas"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 5",
+               "image": "/images/dietsSinglePage/gain/female/5.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 387,
+                     "food": [
+                        {
+                           "name": "1 serving Sun-Dried Tomato & Feta Egg Bites"
+                        },
+                        {
+                           "name": "1 medium apple"
+                        },
+                        {
+                           "name": "1 cup low-fat plain kefir"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 412,
+                     "food": [
+                        {
+                           "name": "3 servings Peanut Butter-Oat Energy Balls"
+                        },
+                        {
+                           "name": "¼ cup unsalted dry-roasted almonds "
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 384,
+                     "food": [
+                        {
+                           "name": "1 serving Chicken Fajita Bowls"
+                        },
+                        {
+                           "name": "1 medium peach"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 426,
+                     "food": [
+                        {
+                           "name": "1 (5.3-oz.) container low-fat plain strained (Greek-style) yogurt"
+                        },
+                        {
+                           "name": "¼ cup raspberries"
+                        },
+                        {
+                           "name": "2 Tbsp. chopped walnuts"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 391,
+                     "food": [
+                        {
+                           "name": "1 serving Anti-Inflammatory Lemony Salmon & Orzo Casserole"
+                        },
+                        {
+                           "name": "1 serving Traditional Greek Salad"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 6",
+               "image": "/images/dietsSinglePage/gain/female/6.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 418,
+                     "food": [
+                        {
+                           "name": "1 serving Quinoa & Chia Oatmeal Mix, prepared with water"
+                        },
+                        {
+                           "name": "¼ cup chopped walnuts"
+                        },
+                        {
+                           "name": "½ cup sliced strawberries"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 140,
+                     "food": [
+                        {
+                           "name": "½ cup low-fat no-salt-added cottage cheese"
+                        },
+                        {
+                           "name": "1 medium peach"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 391,
+                     "food": [
+                        {
+                           "name": "1 serving Anti-Inflammatory Lemony Salmon & Orzo Casserole"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 648,
+                     "food": [
+                        {
+                           "name": "¼ cup unsalted dry-roasted almonds"
+                        },
+                        {
+                           "name": "½ cup blueberries"
+                        },
+                        {
+                           "name": "4 servings Peanut Butter-Oat Energy Balls"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 409,
+                     "food": [
+                        {
+                           "name": "1 serving Grilled Steak Salad with Corn, Cucumbers & Sweet Onion Dressing"
+                        },
+                        {
+                           "name": "1-oz. slice of whole-wheat baguette"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 7",
+               "image": "/images/dietsSinglePage/gain/female/7.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 387,
+                     "food": [
+                        {
+                           "name": "1 serving Sun-Dried Tomato & Feta Egg Bites "
+                        },
+                        {
+                           "name": "1 medium apple"
+                        },
+                        {
+                           "name": "1 cup low-fat plain kefir"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 331,
+                     "food": [
+                        {
+                           "name": "1 large pear"
+                        },
+                        {
+                           "name": "¼ cup unsalted dry-roasted almonds "
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 391,
+                     "food": [
+                        {
+                           "name": "1 serving Anti-Inflammatory Lemony Salmon & Orzo Casserole"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 342,
+                     "food": [
+                        {
+                           "name": "½ cup blueberries"
+                        },
+                        {
+                           "name": "¾ cup low-fat plain strained"
+                        },
+                        {
+                           "name": "2 servings Peanut Butter-Oat Energy Balls"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 555,
+                     "food": [
+                        {
+                           "name": "1 serving Seared Halibut Fish Tacos with Cilantro Slaw"
+                        },
+                        {
+                           "name": "1 serving Slow-Cooker Cuban-Style Black Beans"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
       },
       {
          "id": 6,
          "name": "7 Day Weight Maintain Diet for Women",
-         "image": "/images/dietsPage/maintain/male/2.jpg",
-         "user": "Іrina Andrіїvna"
+         "image": "/images/dietsPage/maintain/female/2.jpg",
+         "user": "Іrina Andrіїvna",
+         "days": [
+            {
+               "day": "Day 1",
+               "image": "/images/dietsSinglePage/maintain/female/1.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 387,
+                     "food": [
+                        {
+                           "name": "1 serving Sun-Dried Tomato & Feta Egg Bites "
+                        },
+                        {
+                           "name": "1 medium apple"
+                        },
+                        {
+                           "name": "1 cup low-fat plain kefir"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 141,
+                     "food": [
+                        {
+                           "name": "2 servings Peanut Butter-Oat Energy Balls "
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 423,
+                     "food": [
+                        {
+                           "name": "1 serving Loaded Cucumber & Avocado Sandwich"
+                        },
+                        {
+                           "name": "¼ cup blueberries"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 126,
+                     "food": [
+                        {
+                           "name": "1 (5.3-oz.) container low-fat plain strained (Greek-style) yogurt"
+                        },
+                        {
+                           "name": "¼ cup raspberries"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 443,
+                     "food": [
+                        {
+                           "name": "1 serving Smoky Collards & Shrimp with Cheesy Grits"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 2",
+               "image": "/images/dietsSinglePage/maintain/female/2.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 318,
+                     "food": [
+                        {
+                           "name": "1 serving Quinoa & Chia Oatmeal Mix, prepared with water"
+                        },
+                        {
+                           "name": "2 Tbsp. chopped walnuts"
+                        },
+                        {
+                           "name": "½ cup sliced strawberries"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 141,
+                     "food": [
+                        {
+                           "name": "2 servings Peanut Butter-Oat Energy Balls "
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 360,
+                     "food": [
+                        {
+                           "name": "1 serving Chicken Fajita Bowls"
+                        },
+                        {
+                           "name": "1 clementine"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 126,
+                     "food": [
+                        {
+                           "name": "1 (5.3-oz.) container low-fat plain strained (Greek-style) yogurt"
+                        },
+                        {
+                           "name": "¼ cup raspberries"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 566,
+                     "food": [
+                        {
+                           "name": "1 serving Chicken Parmesan & Quinoa Stuffed Peppers"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 3",
+               "image": "/images/dietsSinglePage/maintain/female/3.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 387,
+                     "food": [
+                        {
+                           "name": "1 serving Sun-Dried Tomato & Feta Egg Bites "
+                        },
+                        {
+                           "name": "1 medium apple"
+                        },
+                        {
+                           "name": "1 cup low-fat plain kefir"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 131,
+                     "food": [
+                        {
+                           "name": "1 large pear"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 325,
+                     "food": [
+                        {
+                           "name": "1 serving Chicken Fajita Bowls "
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 267,
+                     "food": [
+                        {
+                           "name": "1 (5.3-oz.) container low-fat plain strained (Greek-style) yogurt"
+                        },
+                        {
+                           "name": "¼ cup raspberries"
+                        },
+                        {
+                           "name": "2 servings Peanut Butter-Oat Energy Balls "
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 404,
+                     "food": [
+                        {
+                           "name": "1 serving Grilled Pork Tenderloin with Cherries"
+                        },
+                        {
+                           "name": "1 serving Roasted Garlic Butter Potatoes"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 4",
+               "image": "/images/dietsSinglePage/maintain/female/4.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 318,
+                     "food": [
+                        {
+                           "name": "1 serving Quinoa & Chia Oatmeal Mix, prepared with water"
+                        },
+                        {
+                           "name": "2 Tbsp. chopped walnuts"
+                        },
+                        {
+                           "name": "½ cup sliced strawberries"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 212,
+                     "food": [
+                        {
+                           "name": "3 servings Peanut Butter-Oat Energy Balls "
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 325,
+                     "food": [
+                        {
+                           "name": "1 serving Chicken Fajita Bowls "
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 126,
+                     "food": [
+                        {
+                           "name": "1 (5.3-oz.) container low-fat plain strained (Greek-style) yogurt"
+                        },
+                        {
+                           "name": "¼ cup raspberries"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 520,
+                     "food": [
+                        {
+                           "name": "1 serving Grilled Chicken with Red Pepper-Pecan Romesco Sauce"
+                        },
+                        {
+                           "name": "1 serving Whole-Wheat Couscous with Parmesan & Peas"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 5",
+               "image": "/images/dietsSinglePage/maintain/female/5.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 387,
+                     "food": [
+                        {
+                           "name": "1 serving Sun-Dried Tomato & Feta Egg Bites"
+                        },
+                        {
+                           "name": "1 medium apple"
+                        },
+                        {
+                           "name": "1 cup low-fat plain kefir"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 212,
+                     "food": [
+                        {
+                           "name": "3 servings Peanut Butter-Oat Energy Balls"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 384,
+                     "food": [
+                        {
+                           "name": "1 serving Chicken Fajita Bowls"
+                        },
+                        {
+                           "name": "1 medium peach"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 126,
+                     "food": [
+                        {
+                           "name": "1 (5.3-oz.) container low-fat plain strained (Greek-style) yogurt"
+                        },
+                        {
+                           "name": "¼ cup raspberries"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 391,
+                     "food": [
+                        {
+                           "name": "1 serving Anti-Inflammatory Lemony Salmon & Orzo Casserole"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 6",
+               "image": "/images/dietsSinglePage/maintain/female/6.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 318,
+                     "food": [
+                        {
+                           "name": "1 serving Quinoa & Chia Oatmeal Mix, prepared with water"
+                        },
+                        {
+                           "name": "2 Tbsp. chopped walnuts"
+                        },
+                        {
+                           "name": "½ cup sliced strawberries"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 140,
+                     "food": [
+                        {
+                           "name": "½ cup low-fat no-salt-added cottage cheese"
+                        },
+                        {
+                           "name": "1 medium peach"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 391,
+                     "food": [
+                        {
+                           "name": "1 serving Anti-Inflammatory Lemony Salmon & Orzo Casserole"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 248,
+                     "food": [
+                        {
+                           "name": "¼ cup unsalted dry-roasted almonds"
+                        },
+                        {
+                           "name": "½ cup blueberries"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 409,
+                     "food": [
+                        {
+                           "name": "1 serving Grilled Steak Salad with Corn, Cucumbers & Sweet Onion Dressing"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "day": "Day 7",
+               "image": "/images/dietsSinglePage/maintain/female/7.jpg",
+               "time": [
+                  {
+                     "time": "Breakfast",
+                     "kcal": 387,
+                     "food": [
+                        {
+                           "name": "1 serving Sun-Dried Tomato & Feta Egg Bites "
+                        },
+                        {
+                           "name": "1 medium apple"
+                        },
+                        {
+                           "name": "1 cup low-fat plain kefir"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "A.M. Snack",
+                     "kcal": 131,
+                     "food": [
+                        {
+                           "name": "1 large pear"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Lunch",
+                     "kcal": 391,
+                     "food": [
+                        {
+                           "name": "1 serving Anti-Inflammatory Lemony Salmon & Orzo Casserole"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "P.M. Snack",
+                     "kcal": 42,
+                     "food": [
+                        {
+                           "name": "½ cup blueberries"
+                        }
+                     ]
+                  },
+                  {
+                     "time": "Dinner",
+                     "kcal": 555,
+                     "food": [
+                        {
+                           "name": "1 serving Seared Halibut Fish Tacos with Cilantro Slaw"
+                        },
+                        {
+                           "name": "1 serving Slow-Cooker Cuban-Style Black Beans"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
       }
    ]
 }
