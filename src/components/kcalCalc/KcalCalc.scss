@@ -4,6 +4,9 @@
    }
 
    &__calc {
+      display: flex;
+      flex-direction: column;
+      row-gap: 2rem;
    }
 
    &__info {
@@ -28,16 +31,24 @@
       gap: 2rem;
    }
 
-   &__main {
-      display: grid;
-      grid-template-columns: repeat(3, 12.5rem);
+   &__gender {
+      display: flex;
       justify-content: center;
       gap: 2rem;
    }
 
-   &__bottom {
-      display: grid;
-      grid-template-columns: 12.5rem;
+   &__activity {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+   }
+
+   &__buttons {
+      display: flex;
+      gap: 2rem;
+   }
+   &__goal {
+      display: flex;
       justify-content: center;
       gap: 2rem;
    }
@@ -48,7 +59,7 @@
       background: #fff;
       transition: all 0.3s;
       border-radius: 6.25rem;
-      margin-bottom: 5.5rem;
+      text-wrap: nowrap;
       @media (max-width: 61.999rem) {
          margin-bottom: 1rem;
       }
@@ -70,6 +81,9 @@
       display: inline-flex;
       flex-direction: column;
       text-align: center;
+      label {
+         margin-bottom: 1rem;
+      }
       input {
          padding: 1.3rem 2.5rem;
          border-radius: 6.25rem;
@@ -77,14 +91,13 @@
       select {
          font-size: 1.25rem;
       }
-      // input::-webkit-outer-spin-button,
-      // input::-webkit-inner-spin-button {
-      //    -webkit-appearance: none;
-      //    margin: 0;
-      // }
       select {
          padding: 1.3rem 2.5rem;
          border-radius: 6.25rem;
       }
+   }
+
+   &__result {
+      text-align: center;
    }
 }

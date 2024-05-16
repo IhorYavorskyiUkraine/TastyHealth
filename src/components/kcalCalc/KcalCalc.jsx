@@ -96,7 +96,6 @@ const KcalCalc = () => {
                            <div className="kcalCalc__item">
                               <label>Age:</label>
                               <input
-                                 type="number"
                                  name="age"
                                  onChange={formik.handleChange}
                                  onBlur={formik.handleBlur}
@@ -107,74 +106,62 @@ const KcalCalc = () => {
                               ) : null}
                            </div>
                         </div>
-                        <div className="kcalCalc__main">
+                        <div className="kcalCalc__gender">
                            <div className="kcalCalc__item">
                               <label>Gender:</label>
-                              <div>
+                              <div className="kcalCalc__buttons">
                                  <button
                                     type="button"
-                                    className={
-                                       gender === "male" ? "btn-active" : ""
-                                    }
+                                    className={`kcalCalc__button ${gender === "male" ? "btn-active" : ""}`}
                                     onClick={() => setGender("male")}
                                  >
                                     Male
                                  </button>
                                  <button
                                     type="button"
-                                    className={
-                                       gender === "female" ? "btn-active" : ""
-                                    }
+                                    className={`kcalCalc__button ${gender === "female" ? "btn-active" : ""}`}
                                     onClick={() => setGender("female")}
                                  >
                                     Female
                                  </button>
                               </div>
                            </div>
+                        </div>
+                        <div className="kcalCalc__activity">
                            <div className="kcalCalc__item">
                               <label>Activity Level:</label>
-                              <div>
+                              <div className="kcalCalc__buttons">
                                  <button
                                     type="button"
-                                    className={
-                                       activity === "1.2" ? "btn-active" : ""
-                                    }
+                                    className={`kcalCalc__button ${activity === "1.2" ? "btn-active" : ""}`}
                                     onClick={() => setActivity("1.2")}
                                  >
                                     Sedentary
                                  </button>
                                  <button
                                     type="button"
-                                    className={
-                                       activity === "1.375" ? "btn-active" : ""
-                                    }
+                                    className={`kcalCalc__button ${activity === "1.375" ? "btn-active" : ""}`}
                                     onClick={() => setActivity("1.375")}
                                  >
                                     Lightly active
                                  </button>
                                  <button
                                     type="button"
-                                    className={
-                                       activity === "1.55" ? "btn-active" : ""
-                                    }
+                                    className={`kcalCalc__button ${activity === "1.55" ? "btn-active" : ""}`}
                                     onClick={() => setActivity("1.55")}
                                  >
                                     Moderately active
                                  </button>
                                  <button
                                     type="button"
-                                    className={
-                                       activity === "1.725" ? "btn-active" : ""
-                                    }
+                                    className={`kcalCalc__button ${activity === "1.725" ? "btn-active" : ""}`}
                                     onClick={() => setActivity("1.725")}
                                  >
                                     Very active
                                  </button>
                                  <button
                                     type="button"
-                                    className={
-                                       activity === "1.9" ? "btn-active" : ""
-                                    }
+                                    className={`kcalCalc__button ${activity === "1.9" ? "btn-active" : ""}`}
                                     onClick={() => setActivity("1.9")}
                                  >
                                     Super active
@@ -182,33 +169,27 @@ const KcalCalc = () => {
                               </div>
                            </div>
                         </div>
-                        <div className="kcalCalc__bottom">
+                        <div className="kcalCalc__goal">
                            <div className="kcalCalc__item">
                               <label>Goal:</label>
-                              <div>
+                              <div className="kcalCalc__buttons">
                                  <button
                                     type="button"
-                                    className={
-                                       goal === "lose" ? "btn-active" : ""
-                                    }
+                                    className={`kcalCalc__button ${goal === "lose" ? "btn-active" : ""}`}
                                     onClick={() => setGoal("lose")}
                                  >
                                     Lose Weight
                                  </button>
                                  <button
                                     type="button"
-                                    className={
-                                       goal === "maintain" ? "btn-active" : ""
-                                    }
+                                    className={`kcalCalc__button ${goal === "maintain" ? "btn-active" : ""}`}
                                     onClick={() => setGoal("maintain")}
                                  >
                                     Maintain Weight
                                  </button>
                                  <button
                                     type="button"
-                                    className={
-                                       goal === "gain" ? "btn-active" : ""
-                                    }
+                                    className={`kcalCalc__button ${goal === "gain" ? "btn-active" : ""}`}
                                     onClick={() => setGoal("gain")}
                                  >
                                     Gain Weight
