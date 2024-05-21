@@ -1,18 +1,25 @@
-.error {
-   font-size: 10rem;
-   text-align: center;
-   justify-content: center;
-   padding-top: 10rem;
-   height: 100vh;
-   display: flex;
-}
+.errorPage {
+   &__content {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      gap: 5rem;
+   }
 
-.back {
-   font-size: 1.25rem;
-   display: flex;
-   align-items: center;
-   img {
-      transform: rotate(180deg);
-      padding-left: 0.5rem;
+   &__text {
+      font-size: 10rem;
+   }
+   &__title {
+      font-size: 7rem;
+   }
+   &__back {
+      font-size: 7rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+         transform: rotate(180deg);
+         padding-left: 0.5rem;
+      }
    }
 }

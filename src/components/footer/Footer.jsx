@@ -38,16 +38,16 @@ const Footer = () => {
                   <ul className="footer__items">
                      <li className="footer__item">
                         <Link to="/" className="footer__link">
-                           Menu
+                           Home
                         </Link>
                      </li>
                      <li className="footer__item">
-                        <Link to="/" className="footer__link">
-                           Food & Diet
+                        <Link to="/diets" className="footer__link">
+                           Diets
                         </Link>
                      </li>
                      <li className="footer__item">
-                        <Link to="/" className="footer__link">
+                        <Link to="/about-us" className="footer__link">
                            About Us
                         </Link>
                      </li>

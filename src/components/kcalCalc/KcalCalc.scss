@@ -3,30 +3,16 @@
    &__content {
    }
 
-   &__calc {
+   &__form {
       display: flex;
       flex-direction: column;
       row-gap: 2rem;
-   }
-
-   &__info {
-   }
-
-   &__title {
-   }
-
-   &__desc {
-   }
-
-   &__use {
-   }
-
-   &__list {
+      margin-bottom: 3rem;
    }
 
    &__top {
-      display: grid;
-      grid-template-columns: repeat(3, 12.5rem);
+      display: flex;
+      flex-wrap: wrap;
       justify-content: center;
       gap: 2rem;
    }
@@ -38,19 +24,39 @@
    }
 
    &__activity {
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
    }
 
    &__buttons {
       display: flex;
+      justify-content: center;
       gap: 2rem;
+      flex-wrap: wrap;
    }
    &__goal {
       display: flex;
       justify-content: center;
       gap: 2rem;
+      margin-bottom: 1rem;
+   }
+
+   &__submit {
+      display: flex;
+      margin: 0 auto;
+      button {
+         display: inline-flex;
+         padding: 1.3rem 2.5rem;
+         background: #fb9333;
+         transition: all 0.3s;
+         border-radius: 6.25rem;
+         text-wrap: nowrap;
+         border: 1px solid #131314;
+         color: #575757 !important;
+      }
+   }
+
+   &__myDiet {
+      display: flex;
+      margin: 0 auto;
    }
 
    &__button {
@@ -60,6 +66,8 @@
       transition: all 0.3s;
       border-radius: 6.25rem;
       text-wrap: nowrap;
+      border: 1px solid #131314;
+      color: #575757 !important;
       @media (max-width: 61.999rem) {
          margin-bottom: 1rem;
       }
@@ -87,6 +95,9 @@
       input {
          padding: 1.3rem 2.5rem;
          border-radius: 6.25rem;
+         border: 1px solid #131314;
+         text-align: center;
+         color: #575757 !important;
       }
       select {
          font-size: 1.25rem;
@@ -99,5 +110,24 @@
 
    &__result {
       text-align: center;
+      display: flex;
+      flex-direction: column;
+      row-gap: 2rem;
+   }
+}
+
+.info {
+   display: flex;
+   flex-direction: column;
+   row-gap: 2rem;
+   &__title {
+      margin-bottom: 1rem;
+   }
+   &__item {
+      margin-left: 2rem;
+      list-style: disc;
+      &:not(:last-child) {
+         margin-bottom: 0.5rem;
+      }
    }
 }

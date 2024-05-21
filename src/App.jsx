@@ -26,7 +26,6 @@ const router = createBrowserRouter([
       element: <DietsPage />,
       errorElement: <NotFoundPage />,
    },
-   ,
    {
       path: "/diets/:id",
       element: <DietsSinglePage />,

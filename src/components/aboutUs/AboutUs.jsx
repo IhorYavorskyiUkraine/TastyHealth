@@ -6,9 +6,7 @@ const AboutUs = () => {
    return (
       <div className="wrapper">
          <Header />
-         <main className="main">
-            <Hero />
-         </main>
+         <Hero />
          <Footer />
       </div>
    );

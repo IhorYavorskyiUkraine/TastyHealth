@@ -23,8 +23,9 @@ const SinglePage = () => {
 
       return (
          <>
-            {data?.days.map(day => (
+            {data?.days.map((day, i) => (
                <motion.div
+                  key={i}
                   className="singleDiet__item"
                   initial={{ y: 150 }}
                   whileInView={{ y: 0 }}
@@ -36,8 +37,8 @@ const SinglePage = () => {
                      <img src={day.image} alt="Diet image" />
                   </div>
                   <div className="singleDiet__diet">
-                     {day.time.map(time => (
-                        <>
+                     {day.time.map((time, i) => (
+                        <div key={i}>
                            <h3 className="singleDiet__time">{`${time.time} (${time.kcal} calories)`}</h3>
                            <ul className="singleDiet__list">
                               {time.food.map((food, i) => {
@@ -48,7 +49,7 @@ const SinglePage = () => {
                                  );
                               })}
                            </ul>
-                        </>
+                        </div>
                      ))}
                      <p className="singleDiet__total">
                         Total calories: {calculateTotalKcal(day.time)}

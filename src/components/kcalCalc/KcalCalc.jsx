@@ -1,5 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 import { useFormik } from "formik";
+import { motion } from "framer-motion";
 import * as Yup from "yup";
 import Header from "../header/Header";
 import Footer from "../footer/Footer";
@@ -8,12 +10,21 @@ import "./KcalCalc.scss";
 const validationSchema = Yup.object({
    weight: Yup.number()
       .required("Required")
-      .positive("Must be a positive number"),
+      .min(10, "Too low")
+      .max(500, "Too high")
+      .positive("Must be a positive number")
+      .typeError("Must be a number"),
    height: Yup.number()
+      .min(50, "Too low")
+      .max(300, "Too high")
       .required("Required")
+      .typeError("Must be a number")
       .positive("Must be a positive number"),
    age: Yup.number()
+      .min(4, "Too low")
+      .max(100, "Too high")
       .required("Required")
+      .typeError("Must be a number")
       .positive("Must be a positive number")
       .integer("Must be an integer"),
 });
@@ -48,12 +59,12 @@ const KcalCalc = () => {
          let totalCalories = bmr * activityNum;
 
          if (goal === "lose") {
-            totalCalories -= 500;
+            totalCalories -= 300;
          } else if (goal === "gain") {
-            totalCalories += 500;
+            totalCalories += 300;
          }
 
-         setCalories(totalCalories.toFixed(2));
+         setCalories(totalCalories.toFixed(0));
       },
    });
 
@@ -64,9 +75,13 @@ const KcalCalc = () => {
             <section className="kcalCalc">
                <div className="container">
                   <div className="kcalCalc__content">
-                     <form
+                     <motion.form
+                        initial={{ y: 150 }}
+                        whileInView={{ y: 0 }}
+                        transition={{ duration: 0.3 }}
+                        viewport={{ once: true }}
                         onSubmit={formik.handleSubmit}
-                        className="kcalCalc__calc text"
+                        className="kcalCalc__form text"
                      >
                         <div className="kcalCalc__top">
                            <div className="kcalCalc__item">
@@ -78,7 +93,9 @@ const KcalCalc = () => {
                                  value={formik.values.weight}
                               />
                               {formik.touched.weight && formik.errors.weight ? (
-                                 <div>{formik.errors.weight}</div>
+                                 <div className="error">
+                                    {formik.errors.weight}
+                                 </div>
                               ) : null}
                            </div>
                            <div className="kcalCalc__item">
@@ -90,7 +107,9 @@ const KcalCalc = () => {
                                  value={formik.values.height}
                               />
                               {formik.touched.height && formik.errors.height ? (
-                                 <div>{formik.errors.height}</div>
+                                 <div className="error">
+                                    {formik.errors.height}
+                                 </div>
                               ) : null}
                            </div>
                            <div className="kcalCalc__item">
@@ -102,7 +121,9 @@ const KcalCalc = () => {
                                  value={formik.values.age}
                               />
                               {formik.touched.age && formik.errors.age ? (
-                                 <div>{formik.errors.age}</div>
+                                 <div className="error">
+                                    {formik.errors.age}
+                                 </div>
                               ) : null}
                            </div>
                         </div>
@@ -197,44 +218,128 @@ const KcalCalc = () => {
                               </div>
                            </div>
                         </div>
-                        <button type="submit">Calculate</button>
-                        {calories && (
-                           <div className="kcalCalc__result">
-                              Calories: {calories}
-                           </div>
-                        )}
-                     </form>
-                     <div className="kcalCalc__info">
-                        <h2 className="kcalCalc__title title">
-                           Calorie Calculator
-                        </h2>
-                        <p className="kcalCalc__desc text">
-                           Our calorie calculator helps you determine the daily
-                           calorie intake required to achieve your goals: lose
-                           weight, maintain weight, or gain weight. Simply input
-                           your parameters (weight, height, age, gender), choose
-                           your activity level and desired goal. The calculator
-                           will automatically calculate the optimal calorie
-                           intake needed to maintain your health and reach your
-                           desired results.
-                        </p>
-                        <h3 className="kcalCalc__use title">How to use:</h3>
-                        <ul className="kcalCalc__list text">
-                           <li className="kcalCalc__item">
-                              Enter your weight, height, and age.
-                           </li>
-                           <li className="kcalCalc__item">
-                              Select your gender.
-                           </li>
-                           <li className="kcalCalc__item">
-                              Indicate your activity level.
-                           </li>
-                           <li className="kcalCalc__item">Choose your goal.</li>
-                           <li className="kcalCalc__item">
-                              Click the "Calculate" button to find out your
-                              daily calorie intake.
-                           </li>
-                        </ul>
+                        <div className="kcalCalc__submit">
+                           <button type="submit">Calculate</button>
+                        </div>
+                        <div className="kcalCalc__myDiet">
+                           {calories && (
+                              <div className="kcalCalc__result">
+                                 Calories: {calories}
+                                 {(() => {
+                                    if (gender === "male") {
+                                       switch (goal) {
+                                          case "gain":
+                                             return (
+                                                <Link
+                                                   to="/diets/2"
+                                                   className="kcalCalc__diet"
+                                                >
+                                                   My Diet
+                                                </Link>
+                                             );
+                                          case "lose":
+                                             return (
+                                                <Link
+                                                   to="/diets/1"
+                                                   className="kcalCalc__diet"
+                                                >
+                                                   My Diet
+                                                </Link>
+                                             );
+                                          default:
+                                             return (
+                                                <Link
+                                                   to="/diets/4"
+                                                   className="kcalCalc__diet"
+                                                >
+                                                   My Diet
+                                                </Link>
+                                             );
+                                       }
+                                    } else {
+                                       switch (goal) {
+                                          case "gain":
+                                             return (
+                                                <Link
+                                                   to="/diets/5"
+                                                   className="kcalCalc__diet"
+                                                >
+                                                   My Diet
+                                                </Link>
+                                             );
+                                          case "lose":
+                                             return (
+                                                <Link
+                                                   to="/diets/3"
+                                                   className="kcalCalc__diet"
+                                                >
+                                                   My Diet
+                                                </Link>
+                                             );
+                                          default:
+                                             return (
+                                                <Link
+                                                   to="/diets/6"
+                                                   className="kcalCalc__diet"
+                                                >
+                                                   My Diet
+                                                </Link>
+                                             );
+                                       }
+                                    }
+                                 })()}
+                              </div>
+                           )}
+                        </div>
+                     </motion.form>
+                     <div className="kcalCalc__info info">
+                        <motion.div
+                           className="info__calculator"
+                           initial={{ y: 150 }}
+                           whileInView={{ y: 0 }}
+                           transition={{ duration: 0.3 }}
+                           viewport={{ once: true }}
+                        >
+                           <h2 className="info__title title">
+                              Calorie Calculator
+                           </h2>
+                           <p className="info__desc text">
+                              Our calorie calculator helps you determine the
+                              daily calorie intake required to achieve your
+                              goals: lose weight, maintain weight, or gain
+                              weight. Simply input your parameters (weight,
+                              height, age, gender), choose your activity level
+                              and desired goal. The calculator will
+                              automatically calculate the optimal calorie intake
+                              needed to maintain your health and reach your
+                              desired results.
+                           </p>
+                        </motion.div>
+                        <motion.div
+                           className="info__use"
+                           initial={{ y: 150 }}
+                           whileInView={{ y: 0 }}
+                           transition={{ duration: 0.3 }}
+                           viewport={{ once: true }}
+                        >
+                           <h2 className="info__title title">How to use:</h2>
+                           <ul className="info__list text">
+                              <li className="info__item">
+                                 Enter your weight, height, and age.
+                              </li>
+                              <li className="info__item">
+                                 Select your gender.
+                              </li>
+                              <li className="info__item">
+                                 Indicate your activity level.
+                              </li>
+                              <li className="info__item">Choose your goal.</li>
+                              <li className="info__item">
+                                 Click the "Calculate" button to find out your
+                                 daily calorie intake.
+                              </li>
+                           </ul>
+                        </motion.div>
                      </div>
                   </div>
                </div>
