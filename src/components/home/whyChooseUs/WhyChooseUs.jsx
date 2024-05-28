@@ -12,31 +12,31 @@ const WhyChooseUs = () => {
    const [data, setData] = useState(null);
 
    const { loading, startLoading, stopLoading } = useLoading();
-   const { fetchTables } = useFetchData();
+   const { fetchCards } = useFetchData();
 
-   const renderItems = () => {
-      const items = data?.map(item => {
+   const renderCards = () => {
+      const cards = data?.map(item => {
          return (
-            <li className="whyChooseUs__item item" key={item.id}>
-               <div className="item__image">
+            <li className="whyChooseUs__card card" key={item.id}>
+               <div className="card__image">
                   <img src={item.image} alt="image" />
                </div>
-               <h3 className="item__title">{item.title}</h3>
-               <p className="item__text">{item.text}</p>
-               <Link className="item__link" to={item.link}>
+               <h3 className="card__title">{item.title}</h3>
+               <p className="card__text">{item.text}</p>
+               <Link className="card__link" to={item.link}>
                   Learn more
                   <img src={arrow} alt="arrow" />
                </Link>
             </li>
          );
       });
-      return <ul className="whyChooseUs__items">{items}</ul>;
+      return <ul className="whyChooseUs__cards">{cards}</ul>;
    };
 
    const onRequest = () => {
       startLoading();
       setTimeout(() => {
-         fetchTables()
+         fetchCards()
             .then(data => setData(data))
             .catch(error => {
                console.error("Error fetching data:", error);
@@ -70,7 +70,7 @@ const WhyChooseUs = () => {
                   </p>
                </div>
                <div className="whyChooseUs__bottom">
-                  {loading ? <div className="loader"></div> : renderItems()}
+                  {loading ? <div className="loader"></div> : renderCards()}
                </div>
             </div>
          </div>

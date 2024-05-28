@@ -13,7 +13,7 @@ const Enjoy = () => {
    const { fetchMenu } = useFetchData();
 
    const renderMenu = () => {
-      const menuItems = data?.map(item => {
+      const menu = data?.map(item => {
          return (
             <Link to={item.link} className="menu__item" key={item.id}>
                <div className="menu__image">
@@ -23,7 +23,7 @@ const Enjoy = () => {
             </Link>
          );
       });
-      return <div className="enjoy__menu menu">{menuItems}</div>;
+      return <div className="enjoy__menu menu">{menu}</div>;
    };
 
    const onRequest = () => {

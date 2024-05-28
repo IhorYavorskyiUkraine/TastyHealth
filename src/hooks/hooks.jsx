@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const useFetchData = () => {
-   const fetchTables = async () => {
+   const fetchCards = async () => {
       try {
          const response = await fetch("http://localhost:3001/whyChooseUs");
          const tablesData = await response.json();
@@ -52,7 +52,7 @@ const useFetchData = () => {
    };
 
    return {
-      fetchTables,
+      fetchCards,
       fetchSlides,
       fetchMenu,
       fetchDiets,

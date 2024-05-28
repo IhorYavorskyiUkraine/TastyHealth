@@ -1,11 +1,11 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import MainPage, {
-   KcalCalcPage,
    DietsPage,
+   DietsSinglePage,
+   KcalCalcPage,
    AboutUsPage,
    NotFoundPage,
-   DietsSinglePage,
 } from "./pages";
 
 import "./App.scss";

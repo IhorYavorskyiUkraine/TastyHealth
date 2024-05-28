@@ -24,6 +24,24 @@
    }
 
    &__activity {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+   }
+
+   &__link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+         transition: all 0.3s;
+         padding-left: 0.875rem;
+      }
+      &:hover {
+         img {
+            transform: translateX(5px);
+         }
+      }
    }
 
    &__buttons {
@@ -45,12 +63,14 @@
       button {
          display: inline-flex;
          padding: 1.3rem 2.5rem;
-         background: #fb9333;
          transition: all 0.3s;
          border-radius: 6.25rem;
          text-wrap: nowrap;
          border: 1px solid #131314;
          color: #575757 !important;
+         &:hover {
+            background: var(--btn-hover);
+         }
       }
    }
 

@@ -9,6 +9,7 @@
    &__content {
       display: grid;
       grid-template-columns: 40.125rem 37.5rem;
+      justify-content: space-between;
       @media (max-width: 80.062rem) {
          grid-template-columns: 30.125rem minmax(15rem, 37.5rem);
       }

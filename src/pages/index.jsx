@@ -3,7 +3,7 @@ import React, { Suspense } from "react";
 import MainPage from "./mainPage/MainPage";
 
 const LazyKcalCalcPage = React.lazy(
-   () => import("./kcalCalkPage/KcalCalkPage"),
+   () => import("./kcalCalcPage/KcalCalcPage"),
 );
 const LazyNotFoundPage = React.lazy(
    () => import("./notFoundPage/NotFoundPage.jsx"),

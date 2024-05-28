@@ -27,7 +27,7 @@
    &__item {
    }
 
-   &__items {
+   &__cards {
       display: grid;
       grid-template-columns: repeat(auto-fill, 22.625rem);
       gap: 2.5rem;
@@ -35,7 +35,7 @@
    }
 }
 
-.item {
+.card {
    background: var(--item-bg);
    display: inline-flex;
    flex-direction: column;
@@ -80,12 +80,15 @@
    }
 
    &__link {
-      transition: all 0.3s;
+      max-width: 130px;
       img {
+         transition: all 0.3s;
          padding-left: 0.875rem;
       }
       &:hover {
-         color: var(--font-color-orange);
+         img {
+            transform: translateX(5px);
+         }
       }
    }
 }

@@ -1,7 +1,7 @@
 import KcalCalc from "../../components/kcalCalc/KcalCalc";
 
-const KcalPage = () => {
+const KcalCalcPage = () => {
    return <KcalCalc />;
 };
 
-export default KcalPage;
+export default KcalCalcPage;

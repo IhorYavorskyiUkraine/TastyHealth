@@ -19,7 +19,7 @@
          "image": "/images/main/whyChooseUs/3.png",
          "title": "100 Top Brand",
          "text": "Top diet brands in Ukraine according to the rating. Guaranteed results and customer care.",
-         "link": "https://www.google.com/"
+         "link": "/about-us"
       }
    ],
    "sliderSlides": [
@@ -98,6 +98,14 @@
          "image": "/images/main/enjoy/3.jpg",
          "name": "Gain Weight",
          "link": "/diets"
+      }
+   ],
+   "news": [
+      {
+         "id": 1,
+         "image": "/images/main/news/1.jpg",
+         "name": "The Ketogenic Diet",
+         "text": ""
       }
    ],
    "diets": [
